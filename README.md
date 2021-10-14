@@ -4,7 +4,23 @@ This repository contains the Univeristy of St. Thomas Cascade documentation.
 
 There are two templates (Capricorn and Orion), and they each have a separate directory with a README and related resources and explanations.
 
-## Sites using Capricorn
+## :point_right: Do you want to contribute to this documentation?
+
+_Create a feature branch with your updates and submit a pull request!_
+
+Keep the documentation inclusive and avoid using language like:
+
+-   simply
+-   obviously
+-   basically
+-   of course
+-   clearly
+-   just
+-   everyone knows
+-   however
+-   easy
+
+## :school_satchel: Sites using Capricorn
 
 -   [University of St. Thomas](https://www.stthomas.edu/)
 -   [Alumni | Tommie Network](https://alumni.stthomas.edu/)
@@ -17,9 +33,7 @@ There are two templates (Capricorn and Orion), and they each have a separate dir
     -   pages do not publish
     -   must remote in, or be on campus to view pages
 
----
-
-## Sites using Orion
+## :mortar_board: Sites using Orion
 
 -   [Opus College of Busines](https://business.stthomas.edu/)
 -   [Campaigns](https://campaigns.stthomas.edu/)
@@ -35,9 +49,7 @@ There are two templates (Capricorn and Orion), and they each have a separate dir
     -   pages do not publish
     -   must remote in, or be on campus to view pages
 
----
-
-## Cascade Resources
+## :books: Cascade Resources
 
 -   [Cascade CMS Knowledge Base](https://www.hannonhill.com/cascadecms/latest/faqs/development/index.html)
 -   [Cascade CMS Velocity Tools](https://www.hannonhill.com/cascadecms/latest/developing-in-cascade/script-formats/velocity-tools.html)
