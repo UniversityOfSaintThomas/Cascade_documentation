@@ -21,7 +21,7 @@ There are two templates (Capricorn and Orion), and each have a separate director
 
 ## :mortar_board: Sites using Orion
 
--   [Opus College of Busines](https://business.stthomas.edu/)
+-   [Opus College of Business](https://business.stthomas.edu/)
 -   [Campaigns](https://campaigns.stthomas.edu/)
 -   [Give to St. Thomas](https://give.stthomas.edu/)
 -   [College of Arts and Sciences](https://cas.stthomas.edu/)
@@ -78,3 +78,7 @@ _Create a feature branch with your updates and submit a pull request!_
 -   everyone knows
 -   however
 -   easy
+
+---
+
+Created with :heart: by [Angela J. Holden](https://github.com/angelajholden)
