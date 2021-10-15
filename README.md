@@ -63,11 +63,11 @@ There are two templates (Capricorn and Orion), and each have a separate director
 
 -   [James Madison University Learn Velocity](https://www.jmu.edu/cascade/LearnVelocity/index.shtml)
 
-## :point_right: Do you want to contribute to this documentation?
+## :sparkles: Do you want to contribute to this documentation?
 
 _Create a feature branch with your updates and submit a pull request!_
 
-Keep the documentation inclusive and avoid using language like:
+:point_right: Keep the documentation inclusive and avoid using language like:
 
 -   simply
 -   obviously
