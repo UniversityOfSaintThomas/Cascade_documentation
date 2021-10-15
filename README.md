@@ -4,7 +4,7 @@ This repository contains the Univeristy of St. Thomas Cascade documentation.
 
 There are two templates (Capricorn and Orion), and they each have a separate directory with a README and related resources and explanations.
 
-### :school_satchel: Sites using Capricorn
+## :school_satchel: Sites using Capricorn
 
 -   [University of St. Thomas](https://www.stthomas.edu/)
 -   [Alumni | Tommie Network](https://alumni.stthomas.edu/)
@@ -19,7 +19,7 @@ There are two templates (Capricorn and Orion), and they each have a separate dir
     -   pages do not publish
     -   must have remote access or be on campus to view pages
 
-### :mortar_board: Sites using Orion
+## :mortar_board: Sites using Orion
 
 -   [Opus College of Busines](https://business.stthomas.edu/)
 -   [Campaigns](https://campaigns.stthomas.edu/)
@@ -35,7 +35,7 @@ There are two templates (Capricorn and Orion), and they each have a separate dir
     -   pages do not publish
     -   must have remote access or be on campus to view pages
 
-### :books: Cascade Resources
+## :books: Cascade Resources
 
 -   [Cascade CMS Knowledge Base](https://www.hannonhill.com/cascadecms/latest/faqs/development/index.html)
 -   [Cascade CMS Velocity Tools](https://www.hannonhill.com/cascadecms/latest/developing-in-cascade/script-formats/velocity-tools.html)
@@ -48,7 +48,7 @@ There are two templates (Capricorn and Orion), and they each have a separate dir
 -   [Selecting nodes from a data definition](http://help-archives.hannonhill.com/discussions/velocity-formats/14334-selecting-nodes-from-a-data-definition)
 -   [James Madison University Learn Velocity](https://www.jmu.edu/cascade/LearnVelocity/index.shtml)
 
-### :point_right: Do you want to contribute to this documentation?
+## :point_right: Do you want to contribute to this documentation?
 
 _Create a feature branch with your updates and submit a pull request!_
 
