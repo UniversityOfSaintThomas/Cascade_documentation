@@ -2,7 +2,7 @@
 
 This repository contains the Univeristy of St. Thomas Cascade documentation.
 
-There are two templates (Capricorn and Orion), and they each have a separate directory with a README and related resources and explanations.
+There are two templates (Capricorn and Orion), and each have a separate directory with a README and related resources and explanations.
 
 ## :school_satchel: Sites using Capricorn
 
@@ -37,15 +37,30 @@ There are two templates (Capricorn and Orion), and they each have a separate dir
 
 ## :books: Cascade Resources
 
+### Hannon Hill
+
 -   [Cascade CMS Knowledge Base](https://www.hannonhill.com/cascadecms/latest/faqs/development/index.html)
 -   [Cascade CMS Velocity Tools](https://www.hannonhill.com/cascadecms/latest/developing-in-cascade/script-formats/velocity-tools.html)
 -   [Cascade CMS Velocity Cheat Sheet](https://www.hannonhill.com/cascadecms/latest/_docs/velocity-cheatsheet.pdf)
 -   [Cascade CMS Advanced Velocity Cheatsheet](https://www.hannonhill.com/cascadecms/latest/_docs/advanced-velocity-cheatsheet.pdf)
--   [The Apache Velocity Project](http://velocity.apache.org/engine/1.7/user-guide.html)
--   [Hannon Hill Velocity Cookbook](https://github.com/hannonhill/Velocity-Cookbook)
--   [check for empty textValue using getStructuredDataNode](http://help-archives.hannonhill.com/discussions/velocity-formats/14099-check-for-empty-textvalue-using-getstructureddatanode)
--   [Fetching child elements of parent using velocity code](https://stackoverflow.com/questions/24827801/fetching-child-elements-of-parent-using-velocity-code)
 -   [Selecting nodes from a data definition](http://help-archives.hannonhill.com/discussions/velocity-formats/14334-selecting-nodes-from-a-data-definition)
+-   [check for empty textValue using getStructuredDataNode](http://help-archives.hannonhill.com/discussions/velocity-formats/14099-check-for-empty-textvalue-using-getstructureddatanode)
+
+### The Apache Velocity Project
+
+-   [The Apache Velocity Project](http://velocity.apache.org/engine/1.7/user-guide.html)
+
+### Github
+
+-   [Hannon Hill Velocity Cookbook](https://github.com/hannonhill/Velocity-Cookbook)
+
+### Stack Overflow
+
+-   [Questions tagged velocity](https://stackoverflow.com/questions/tagged/velocity)
+-   [Fetching child elements of parent using velocity code](https://stackoverflow.com/questions/24827801/fetching-child-elements-of-parent-using-velocity-code)
+
+### Miscellaneous
+
 -   [James Madison University Learn Velocity](https://www.jmu.edu/cascade/LearnVelocity/index.shtml)
 
 ## :point_right: Do you want to contribute to this documentation?
