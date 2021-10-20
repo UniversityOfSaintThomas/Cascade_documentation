@@ -43,6 +43,10 @@ There are two templates (Capricorn and Orion), and each have a separate director
 -   [Cascade CMS Velocity Tools](https://www.hannonhill.com/cascadecms/latest/developing-in-cascade/script-formats/velocity-tools.html)
 -   [Cascade CMS Velocity Cheat Sheet](https://www.hannonhill.com/cascadecms/latest/_docs/velocity-cheatsheet.pdf)
 -   [Cascade CMS Advanced Velocity Cheatsheet](https://www.hannonhill.com/cascadecms/latest/_docs/advanced-velocity-cheatsheet.pdf)
+
+### Hannon Hill Archives
+
+-   [Velocity Formats](http://help-archives.hannonhill.com/discussions/velocity-formats)
 -   [Selecting nodes from a data definition](http://help-archives.hannonhill.com/discussions/velocity-formats/14334-selecting-nodes-from-a-data-definition)
 -   [check for empty textValue using getStructuredDataNode](http://help-archives.hannonhill.com/discussions/velocity-formats/14099-check-for-empty-textvalue-using-getstructureddatanode)
 
@@ -81,4 +85,4 @@ _Create a feature branch with your updates and submit a pull request!_
 
 ---
 
-Created with :heart: by [Angela J. Holden](https://github.com/angelajholden)
+Created by :sparkles: [Angela J. Holden](https://github.com/angelajholden) :sparkles:
