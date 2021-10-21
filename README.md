@@ -18,6 +18,10 @@ There are two templates (Capricorn and Orion), and each have a separate director
 -   STTHOMAS DEV
     -   pages do not publish
     -   must have remote access or be on campus to view pages
+-   Capricorn Template
+    -   pages do not publish
+    -   copy this instance to make a new site using the Capricorn template
+    -   follow the directions in the Capricorn section of this documentation
 
 ## Sites using Orion
 
@@ -34,6 +38,10 @@ There are two templates (Capricorn and Orion), and each have a separate director
 -   OPUS DEV
     -   pages do not publish
     -   must have remote access or be on campus to view pages
+-   Orion Template
+    -   pages do not publish
+    -   copy this instance to make a new site using the Orion template
+    -   follow the directions in the Orion section of this documentation
 
 ## Cascade Resources
 
