@@ -1,6 +1,6 @@
 # Capricorn
 
-**The first thing to do before proceeding with anything is to make sure the **Publishing Destinations** have been disabled and removed.**
+The first thing to do before proceeding with anything is to make sure the **_Publishing Destinations and Transports_** have been disabled and removed.
 
 ## :dart: Remove Destinations and Transports
 
@@ -28,7 +28,7 @@
 -   Republishing the site will re-deploy the pages that were deleted
 -   Notify members of the web team and ITS immediately of what happened
 
-**Avoid this mistake by confirming the destinations and transports are removed from the new site copy before you proceed with anything else.**
+Avoid this mistake by confirming the **_Destinations and Transports are removed_** from the new site copy before you proceed with anything else.
 
 ## Site Settings
 
@@ -40,7 +40,7 @@
 ### Go to Manage Site > Site Settings
 
 -   Change the URL
--   Even if you enter example.com, make sure you change the URL
+-   This field is required - use `example.com` if you don't know the new URL
 -   Click Submit
 
 ## Asset Factories
