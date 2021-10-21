@@ -1,12 +1,14 @@
 # Orion
 
-The first thing to do before proceeding with anything is to make sure the **_Publishing Destinations and Transports_** have been disabled and removed.
+This is the documentation specific to the **Capricorn** template. When you make a new Cascade instance using this template, do not proceed with anything until the following steps are completed.
 
-## :dart: Remove Destinations and Transports
+**_The first steps are to make sure the Publishing Destinations and Transports have been disabled and removed._**
+
+## :dart: Remove Destinations and Transports from a New Cascade Instance
 
 ### :point_right: Go to Manage Site > Destinations
 
--   Click each destination, then click **Edit**
+-   Click a destination, then click **Edit**
 -   Uncheck the box labeled **Enable destination**.
 -   After each destination is **Disabled**, **Delete** each of the destinations
 
@@ -35,7 +37,7 @@ Avoid this mistake by confirming the **_Destinations and Transports are removed_
 ### Ask ITS to setup new publish destinations and transports
 
 -   After you've made these changes, send a request to ITS (Vicky Vue)
--   ITS will also setup a new publish destinations and transports
+-   ITS will go into the Cascade instance and add new publish destinations and transports
 
 ### Go to Manage Site > Site Settings
 
@@ -43,68 +45,6 @@ Avoid this mistake by confirming the **_Destinations and Transports are removed_
 -   This field is required - use `example.com` if you don't know the new URL
 -   Click Submit
 
-## Site Specific Files
+## Continue with the Site Setup
 
-### Root Orion Structure
-
-This is the core structure of a site using the Orion Template. We use this template to create all new sites using Orion.
-
-Each Orion site contains a `_shared-orion` directory that is specific **_to that site_**.
-
-```
-Orion Template Structure
-|__ 404
-
-|__ _beta
-    |__ angela
-        |__ private
-        |__ public
-    |__ ashley
-        |__ private
-        |__ public
-    |__ codi
-        |__ private
-        |__ public
-    |__ ed
-        |__ private
-        |__ public
-    |__ jennifer
-        |__ private
-        |__ public
-
-|__ _external-links
-    |__ 404-page-links
-
-|__ _media-library
-    |__ _copy-folder
-        |__ 1025x770
-        |__ 1200x1200
-        |__ 1200x800
-        |__ 1920x1080
-        |__ 770x1025
-        |__ 770x575
-    |__ _documents
-    |__ _images
-    |__ _placeholder-images
-
-|__ _rss
-|__ _shared-orion
-|__ index
-|__ site-setup
-```
-
--   Orion Template > \_shared-orion > \_cms > base assets > \* (everything in this folder)
-
--   Orion Template > \_shared-orion > \_cms > blocks > footer
--   Orion Template > \_shared-orion > \_cms > blocks > xml > head files
--   Orion Template > \_shared-orion > \_cms > blocks > xml > mobile header
--   Orion Template > \_shared-orion > \_cms > blocks > xml > top body scripts
--   Orion Template > \_shared-orion > \_cms > formats > shared > eyebrow nav
--   Orion Template > \_shared-orion > \_cms > formats > universal > canonical
-
--   Orion Template > \_shared-orion > \_cms > blocks > xml > bottom scripts <-- no, i don't think we actually need this
-
--   Orion Template > \_shared-orion > \_cms > blocks > landing-footer
--   Orion Template > \_shared-orion > \_cms > formats > shared > landing eyebrow nav
-
--   do we need a base file? can we make 1 dynamic url file instead? probably.
+-   [Orion Site Setup](https://github.com/UniversityOfSaintThomas/Cascade_documentation/tree/main/orion/site_setup.md)

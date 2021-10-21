@@ -8,7 +8,7 @@ This is the documentation specific to the **Capricorn** template. When you make 
 
 ### :point_right: Go to Manage Site > Destinations
 
--   Click each destination, then click **Edit**
+-   Click a destination, then click **Edit**
 -   Uncheck the box labeled **Enable destination**.
 -   After each destination is **Disabled**, **Delete** each of the destinations
 

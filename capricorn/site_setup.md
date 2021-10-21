@@ -1,6 +1,8 @@
+# Site Setup
+
 ## Asset Factories
 
-### Go Back to Manage Site > Asset Factories
+### Manage Site > Asset Factories
 
 ### There are 4 Asset Factory items for Capricorn
 
@@ -41,7 +43,7 @@ _shared/_cms/base assets/academic-calendar -> Orion Template/_shared-orion/_cms/
 
 -   Click to enter the `_shared-capricorn > base-assets` folder
 -   Next click More in the upper right-hand corner and choose Bulk Change from the drop down
--   Property to Chnage > Content Type
+-   Property to Change > Content Type
 -   Check the box for `STTHOMAS DEV: /_shared-capricorn/base-assets/interior`
 -   New Content Type > Content Types > Interior
 
