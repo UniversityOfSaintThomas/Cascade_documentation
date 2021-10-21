@@ -1,6 +1,6 @@
 # Orion
 
-This is the documentation specific to the **Capricorn** template. When you make a new Cascade instance using this template, do not proceed with anything until the following steps are completed.
+This is the documentation specific to the **Orion** template. When you make a new Cascade instance using this template, do not proceed with anything until the following steps are completed.
 
 **_The first steps are to make sure the Publishing Destinations and Transports have been disabled and removed._**
 
