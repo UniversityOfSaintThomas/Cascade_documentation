@@ -16,13 +16,13 @@
 
 ---
 
-### Why it's important...
+### :exclamation: Why it's important...
 
 -   Copying a **live, production site** also copies it's publishing settings
 -   Anything that's published or un-published on the new copy will also be published or un-published on the live site
 -   For example, if you start deleting content from the new copy before removing the destinations, content from the live site will also be deleted
 
-### If this happens...
+### :exclamation: If this happens...
 
 -   Go to **System Menu > Sites** and check the box next to the site you want to republish, then click **Publish**
 -   Republishing the site will re-deploy the pages that were deleted
