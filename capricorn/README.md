@@ -2,6 +2,8 @@
 
 **The first thing to do before proceeding with anything is to make sure the **Publishing Destinations** have been disabled and removed.**
 
+---
+
 ## Remove Destinations and Transports
 
 ### Go to Manage Site > Destinations
@@ -13,6 +15,8 @@
 ### Next go to Manage Site > Transports
 
 -   **Delete** each of the transports
+
+---
 
 ### Why it's important...
 
@@ -27,6 +31,8 @@
 -   Notify members of the web team and ITS immediately of what happened
 
 **Avoid this mistake by confirming the destinations are removed from the new site copy before you proceed with anything.**
+
+---
 
 ### Ask ITS to setup new publish destinations and transports
 
