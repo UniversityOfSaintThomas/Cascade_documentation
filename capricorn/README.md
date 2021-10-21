@@ -1,8 +1,8 @@
 # Capricorn
 
-## READ THIS BEFORE YOU PROCEED
-
 **The first thing to do before proceeding with anything is to make sure the **Publishing Destinations** have been disabled and removed.**
+
+## Remove Destinations and Transports
 
 ### Go to Manage Site > Destinations
 
