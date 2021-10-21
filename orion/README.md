@@ -1,4 +1,37 @@
-# Orion :mortar_board:
+# Orion
+
+## READ THIS BEFORE YOU PROCEED
+
+**The first thing to do before proceeding with anything is to make sure the **Publishing Destinations** have been disabled and removed.**
+
+### Go to Manage Site > Destinations
+
+-   Click each destination, then click **Edit**
+-   Uncheck the box labeled **Enable destination**.
+-   After each destination is **Disabled**, **Delete** each of the destinations
+
+### Next go to Manage Site > Transports
+
+-   **Delete** each of the transports
+
+### Why it's important...
+
+-   Copying a **live, production site** also copies it's publishing settings
+-   Anything that's published or un-published will also take place on the live site
+-   For example, if you start deleting content from the copy before removing the destinations, content from the live site will also be deleted
+
+### If this happens...
+
+-   Go to **System Menu > Sites**. Check the box next to the site you want to republish. Then click **Publish**
+-   Republishing the site will re-deploy the pages that were deleted
+-   Notify members of the web team and ITS immediately of what happened
+
+**Avoid this mistake by confirming the destinations are removed from the new site copy before you proceed with anything.**
+
+### Ask ITS to setup new publish destinations and transports
+
+-   After you've made these changes, send a request to ITS (Vicky Vue)
+-   ITS will also setup a new publish destinations and transports
 
 ## Site Specific Files
 
