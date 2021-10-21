@@ -1,10 +1,10 @@
-# Cascade Documentation :apple:
+# Cascade Documentation
 
 This repository contains the Univeristy of St. Thomas Cascade documentation.
 
 There are two templates (Capricorn and Orion), and each have a separate directory with a README and related resources and explanations.
 
-## :school_satchel: Sites using Capricorn
+## Sites using Capricorn
 
 -   [University of St. Thomas](https://www.stthomas.edu/)
 -   [Alumni | Tommie Network](https://alumni.stthomas.edu/)
@@ -19,7 +19,7 @@ There are two templates (Capricorn and Orion), and each have a separate director
     -   pages do not publish
     -   must have remote access or be on campus to view pages
 
-## :mortar_board: Sites using Orion
+## Sites using Orion
 
 -   [Opus College of Business](https://business.stthomas.edu/)
 -   [Campaigns](https://campaigns.stthomas.edu/)
@@ -35,7 +35,7 @@ There are two templates (Capricorn and Orion), and each have a separate director
     -   pages do not publish
     -   must have remote access or be on campus to view pages
 
-## :books: Cascade Resources
+## Cascade Resources
 
 ### Hannon Hill
 
