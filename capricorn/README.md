@@ -2,8 +2,6 @@
 
 **The first thing to do before proceeding with anything is to make sure the **Publishing Destinations** have been disabled and removed.**
 
----
-
 ## Remove Destinations and Transports
 
 ### Go to Manage Site > Destinations
@@ -34,6 +32,8 @@
 
 ---
 
+## Site Settings
+
 ### Ask ITS to setup new publish destinations and transports
 
 -   After you've made these changes, send a request to ITS (Vicky Vue)
@@ -45,13 +45,7 @@
 -   Even if you enter example.com, make sure you change the URL
 -   Click Submit
 
-### Go Back to Manage Site > Destinations
-
--   Delete the destination
-
-### Go Back to Manage Site > Transports
-
--   Delete the transport
+## Asset Factories
 
 ### Go Back to Manage Site > Asset Factories
 
@@ -74,7 +68,7 @@
 
 ### Click on an Asset Factory and change the Base Asset from the old instance to the new instance
 
-#### Do this for each of the Asset Factory items
+### Do this for each of the Asset Factory items
 
 -   Capricorn example
 
@@ -88,13 +82,17 @@ University of St. Thomas: /_shared-capricorn/base-assets/interior -> STTHOMAS DE
 _shared/_cms/base assets/academic-calendar -> Orion Template/_shared-orion/_cms/base assets/academic-calendar
 ```
 
-#### Go to Site Content and do this for each Base Asset
+## Base Assets
+
+### Go to Site Content and do this for each Base Asset
 
 -   Click to enter the `_shared-capricorn > base-assets` folder
 -   Next click More in the upper right-hand corner and choose Bulk Change from the drop down
 -   Property to Chnage > Content Type
 -   Check the box for `STTHOMAS DEV: /_shared-capricorn/base-assets/interior`
 -   New Content Type > Content Types > Interior
+
+## Content Types
 
 ### Go Back to Manage Site > Content Types
 
@@ -113,12 +111,16 @@ _shared/_cms/base assets/academic-calendar -> Orion Template/_shared-orion/_cms/
 -   Change the Data Definition for Interior, Landing, Program Filter and Sub-Landing to "University of St. Thomas: Data Definitions/Universal"
 -   Click Submit after each change
 
+## Site Setup
+
 ### Next go to Site Content > then site-setup
 
 ### Click on Edit > Properties
 
 -   Change the Data Definition to "University of St. Thomas: Data Definitions/Site Setup"
 -   Click Submit
+
+## Configurations
 
 ### Next go to Manage Site > then Configurations
 
