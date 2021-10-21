@@ -1,5 +1,21 @@
 # Site Setup
 
+### There are 7 Asset Factory items for Orion
+
+-   Academic Calendar
+-   Course Detail
+-   Degrees and Programs
+-   Faculty-Staff Profile
+-   Landing Page
+-   Story Page
+-   Universal Page
+
+-   Orion example
+
+```
+_shared/_cms/base assets/academic-calendar -> Orion Template/_shared-orion/_cms/base assets/academic-calendar
+```
+
 ## Site Specific Files
 
 ### Root Orion Structure
