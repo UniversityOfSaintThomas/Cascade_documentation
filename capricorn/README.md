@@ -2,15 +2,15 @@
 
 **The first thing to do before proceeding with anything is to make sure the **Publishing Destinations** have been disabled and removed.**
 
-## Remove Destinations and Transports
+## :dart: Remove Destinations and Transports
 
-### Go to Manage Site > Destinations
+### :point_right: Go to Manage Site > Destinations
 
 -   Click each destination, then click **Edit**
 -   Uncheck the box labeled **Enable destination**.
 -   After each destination is **Disabled**, **Delete** each of the destinations
 
-### Next go to Manage Site > Transports
+### :point_right: Next go to Manage Site > Transports
 
 -   **Delete** each of the transports
 
