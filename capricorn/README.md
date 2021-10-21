@@ -4,7 +4,7 @@ This is the documentation specific to the **Capricorn** template. When you make 
 
 **_The first steps are to make sure the Publishing Destinations and Transports have been disabled and removed._**
 
-## :dart: Remove Destinations and Transports from a new Cascade instance
+## :dart: Remove Destinations and Transports from a New Cascade Instance
 
 ### :point_right: Go to Manage Site > Destinations
 
