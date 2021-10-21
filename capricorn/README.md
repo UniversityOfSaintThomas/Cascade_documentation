@@ -19,18 +19,16 @@
 ### Why it's important...
 
 -   Copying a **live, production site** also copies it's publishing settings
--   Anything that's published or un-published will also take place on the live site
--   For example, if you start deleting content from the copy before removing the destinations, content from the live site will also be deleted
+-   Anything that's published or un-published on the new copy will also be published or un-published on the live site
+-   For example, if you start deleting content from the new copy before removing the destinations, content from the live site will also be deleted
 
 ### If this happens...
 
--   Go to **System Menu > Sites**. Check the box next to the site you want to republish. Then click **Publish**
+-   Go to **System Menu > Sites** and check the box next to the site you want to republish, then click **Publish**
 -   Republishing the site will re-deploy the pages that were deleted
 -   Notify members of the web team and ITS immediately of what happened
 
-**Avoid this mistake by confirming the destinations are removed from the new site copy before you proceed with anything.**
-
----
+**Avoid this mistake by confirming the destinations and transports are removed from the new site copy before you proceed with anything else.**
 
 ## Site Settings
 
