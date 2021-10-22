@@ -2,15 +2,13 @@
 
 This is the **Site Setup** documentation for the **Capricorn** template. When you make a new Cascade site, follow each of these steps to configure the new instance correctly.
 
-The global configuration files for the Capricorn template are in the root of the University of St. Thomas Instance.
+The global configuration files for the Capricorn template are in the root of the University of St. Thomas site.
 
 ```
 University of St. Thomas: /_shared-capricorn/
 ```
 
-Each site, or instance, that uses the Capricorn template also has a shared configuration in its root for things that are specific to that instance. The following setup are the steps to use the global styles and make sure things like the header, footer and navigation are unique.
-
----
+Each site, or instance, that uses the Capricorn template also has a shared configuration in **its own root** for things that are specific to that instance. The following setup are the steps to use the global styles and make sure things like the header, footer and navigation are unique.
 
 ## Content Types
 
@@ -30,9 +28,9 @@ A change to the homepage would likely consist of a layout change, or adding a st
 
 ### Click on a Content Type > then Edit
 
--   Under type of Content > Select the Data Definition radio button
+-   Under Type of Content > Select the Data Definition radio button
 -   Next change the Data Definition for Home to `New Instance: Data Definitions/Home`
--   Then change the Data Definition for Interior, Landing, and Sub-Landing to "University of St. Thomas: Data Definitions/Universal"
+-   Then change the Data Definition for Interior, Landing, and Sub-Landing to `University of St. Thomas: Data Definitions/Universal`
 -   Click Submit after each change
 
 By pointing the **Content Types Data Definition** to the University of St. Thomas universal data definition, all sites using capricorn receive updates when a module style or layout is improved. So all sites using capricorn get the benefit of any updates that are made.
@@ -55,8 +53,8 @@ The **`site-setup`** file is in the root of the new site. This determines the st
 
 ### Go to Manage Site > then Configurations
 
--   Change each Configurations' Template (Home, Interior, Landing, Program Filter and Sub-Landing)
--   Click Home > Edit > and change the Template to `University of St. Thomas: /_shared-capricorn/Templates/Universal`
+-   Change each Configurations' Template (Events, Home, Interior, Landing, and Sub-Landing)
+-   Click Interior > Edit > and change the Template to `University of St. Thomas: /_shared-capricorn/templates/Universal`
 
 **Before you click submit, scroll down and notice that each "Region" is now pointing to "University of St. Thomas"**
 
@@ -65,6 +63,10 @@ The **`site-setup`** file is in the root of the new site. This determines the st
 **You're overriding the Canonical, Footer, Head Data, Header and Meta Data files to reference the current site, not the University of St. Thomas.**
 
 -   Change (or override) individual parts of the template as needed to customize the current site.
+
+**The Home Configuration paths all point to the new site or instance except Bottom Scripts. This should point to the University of St. Thomas**
+
+-   Click Home > Edit > and change the Template to `New Instance: /_shared-capricorn/templates/Home`
 -   Make sure you don't change Default paths.
     -   For Home the Default is `<> home`
     -   For all other Configurations the Default is `<> content-rows`
