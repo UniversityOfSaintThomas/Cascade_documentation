@@ -5,7 +5,7 @@ This is the **Site Setup** documentation for the **Capricorn** template. When yo
 The global configuration files for the Capricorn template are in the root of the University of St. Thomas site.
 
 ```
-University of St. Thomas: /_shared-capricorn/
+University of St. Thomas: _shared-capricorn/
 ```
 
 Each site, or instance, that uses the Capricorn template also has a shared configuration in **its own root** for things that are specific to that instance. The following setup are the steps to use the global styles and make sure things like the header, footer and navigation, etc. are unique.
@@ -53,7 +53,7 @@ The **`site-setup`** file is in the root of the new site. This determines the st
 
 -   Change each Configuration Template (Events, Interior, Landing, and Sub-Landing)
 -   Click Interior > Edit > and change the Template to
-    -   `University of St. Thomas: /_shared-capricorn/templates/Universal`
+    -   `University of St. Thomas: _shared-capricorn/templates/Universal`
 
 :dart: **Before** you click submit, scroll down and notice that each "Region" is now pointing to "University of St. Thomas"
 
@@ -73,7 +73,7 @@ The **`site-setup`** file is in the root of the new site. This determines the st
 
 :dart: **Each** Home Configuration path points to the new site except Bottom Scripts. This should point to the University of St. Thomas
 
--   Click Home > Edit > and change the Template to `New Instance: /_shared-capricorn/templates/Home`
+-   Click Home > Edit > and change the Template to `New Instance: _shared-capricorn/templates/Home`
 -   Make sure the Home **Default** path is `<> home`
 -   Click Submit
 
@@ -105,12 +105,12 @@ New Instance: /_shared-capricorn/base-assets/interior
 
 ## Base Assets
 
-### Go to Site Content > `New Instance: _shared-capricorn > Base Assets`
+### Go to Site Content > `New Instance: _shared-capricorn/base-assets`
 
--   Click `_shared-capricorn > base-assets` to enter the directory
+-   Click `_shared-capricorn/base-assets` to enter the directory
 -   Next click More in the upper right-hand corner and choose Bulk Change from the drop down
 -   Property to Change > Content Type
--   Check the box for `STTHOMAS DEV: /_shared-capricorn/base-assets/interior`
+-   Check the box for `STTHOMAS DEV: _shared-capricorn/base-assets/interior`
 -   New Content Type > Content Types > Interior
 
 ## Continue with Formats and Blocks
