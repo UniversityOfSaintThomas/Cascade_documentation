@@ -1,5 +1,7 @@
 # Updating Formats and Blocks
 
+Each of these files is unique to the new site being built. Plan to edit every file below when you create the site, and when you launch the site. And for some files, many times in between.
+
 ## Structure for `New Instance: _shared-capricorn`
 
 These are the files that are unique to the new site or instance being created.
