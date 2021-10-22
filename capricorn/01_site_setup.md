@@ -10,7 +10,7 @@ University of St. Thomas: /_shared-capricorn/
 
 Each site, or instance, that uses the Capricorn template also has a shared configuration in **its own root** for things that are specific to that instance. The following setup are the steps to use the global styles and make sure things like the header, footer and navigation, etc. are unique.
 
-Note that `New Instance: ` is an example name that refers to the new site being created, the same way `University of St. Thomas: ` refers to the instance for `www.stthomas.edu`. A best practice is to name the site for the school, college, department or app being built.
+**Note** that `New Instance:` is an example name that refers to the new site being created, the same way `University of St. Thomas:` refers to the instance for `www.stthomas.edu`. A best practice is to name the site for the school, college, department or app being built.
 
 ---
 
