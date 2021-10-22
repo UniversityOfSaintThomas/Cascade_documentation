@@ -55,7 +55,7 @@ The **`site-setup`** file is in the root of the new site. This determines the st
 -   Click Interior > Edit > and change the Template to
     -   `University of St. Thomas: /_shared-capricorn/templates/Universal`
 
-:dart: **Before you click submit, scroll down and notice that each "Region" is now pointing to "University of St. Thomas"**
+:dart: **Before** you click submit, scroll down and notice that each "Region" is now pointing to "University of St. Thomas"
 
 -   Change the following **region paths** to the current site's path `New Instance: ...`
 
@@ -71,7 +71,7 @@ The **`site-setup`** file is in the root of the new site. This determines the st
 
 #### Home Configuration
 
-:dart: **Each Home Configuration path points to the new site except Bottom Scripts. This should point to the University of St. Thomas**
+:dart: **Each** Home Configuration path points to the new site except Bottom Scripts. This should point to the University of St. Thomas
 
 -   Click Home > Edit > and change the Template to `New Instance: /_shared-capricorn/templates/Home`
 -   Make sure the Home **Default** path is `<> home`
