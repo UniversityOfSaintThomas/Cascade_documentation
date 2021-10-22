@@ -1,6 +1,6 @@
 # Cascade Documentation
 
-This repository contains the Univeristy of St. Thomas Cascade documentation.
+This repository contains the University of St. Thomas Cascade documentation.
 
 There are two templates (Capricorn and Orion), and each have a separate directory with a README and related resources and explanations.
 
