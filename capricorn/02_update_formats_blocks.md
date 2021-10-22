@@ -33,6 +33,12 @@ _shared-capricorn
     |__ Home
 ```
 
+## Base Assets
+
+-   [Explained in Site Setup](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/01_site_setup.md#base-assets)
+
+## Blocks
+
 ### Footer
 
 #### `New Instance: _shared-capricorn > blocks > footer`
@@ -57,6 +63,8 @@ _shared-capricorn
 #### `New Instance: _shared-capricorn > blocks > schema`
 
 -   This is the SEO schema data. Ask Kathy on the Analytics team for updated schema data for the new site.
+
+## Formats
 
 ### Base URL
 

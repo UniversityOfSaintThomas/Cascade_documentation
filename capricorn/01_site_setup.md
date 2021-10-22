@@ -125,4 +125,6 @@ New Instance: /_shared-capricorn/base-assets/interior
 -   Check the box for `STTHOMAS DEV: /_shared-capricorn/base-assets/interior`
 -   New Content Type > Content Types > Interior
 
-## Updating Formats and Blocks
+## Continue with Formats and Blocks
+
+-   [Update Capricorn Formats and Blocks](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/02_update_formats_blocks.md#updating-formats-and-blocks)
