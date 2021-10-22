@@ -47,4 +47,4 @@ Avoid this mistake by confirming the **_Destinations and Transports are removed_
 
 ## Continue with the Site Setup
 
--   [Capricorn Site Setup](https://github.com/UniversityOfSaintThomas/Cascade_documentation/tree/main/capricorn/site_setup.md)
+-   [Capricorn Site Setup](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/01_site_setup.md#site-setup)

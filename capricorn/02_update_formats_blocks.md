@@ -76,5 +76,4 @@ _shared-capricorn
 
 #### `New Instance: _shared-capricorn > formats > universal > canonical`
 
--   Update this to the new site's URL.
 -   I update this to the new site's development URL, and then again to the production URL when the site is launched.
