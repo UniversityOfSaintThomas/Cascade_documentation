@@ -12,12 +12,6 @@ Each site, or instance, that uses the Capricorn template also has a shared confi
 
 You'll see `New Instance: ...` below as an example name that refers to the new site being created, the same way `University of St. Thomas: ...` refers to the Cascade instance or site for `www.stthomas.edu`. A best practice is to name the site for the school, college, department or app being created.
 
-## Examples of how to name an instance:
-
--   Morrison Family College of Health **[college]**
--   Lawyer Search **[app for the School of Law]**
--   Continuing and Professional Education **[department and an app]**
-
 ---
 
 ## Content Types
@@ -32,22 +26,18 @@ You'll see `New Instance: ...` below as an example name that refers to the new s
 -   Landing
 -   Sub-Landing
 
-The home page is unique to this site or instance. There is a separate **Data Definition** called **Home** for each instance to build a unique homepage. The styles (CSS) for the homepage are global. The layout and markup still match the University of St. Thomas instance. As of this writing (10/21/2021) we have not been asked to build a new homepage for any site using the Capricorn template.
-
-A change to the homepage would likely consist of a layout change, or adding a static module to the homepage template. You can change the styles for a single unique homepage by adding semantic classes and styling that homepage as needed.
-
 ### Click on a Content Type > then Edit
 
 -   Under Type of Content > Select the Data Definition radio button
--   Next change the Data Definition for Home to `New Instance: Data Definitions/Home`
--   Then change the Data Definition for Interior, Landing, and Sub-Landing to `University of St. Thomas: Data Definitions/Universal`
+-   Change the Data Definition for **Home** to
+    -   `New Instance: Data Definitions/Home`
+-   Change the Data Definition for **Events, Interior, Landing, and Sub-Landing** to
+    -   `University of St. Thomas: Data Definitions/Universal`
 -   Click Submit after each change
 
-By pointing the **Content Types Data Definition** to the University of St. Thomas universal data definition, all sites using capricorn receive updates when a module style or layout is improved. So all sites using capricorn get the benefit of any updates that are made.
+By pointing the **Content Types Data Definition** to the University of St. Thomas universal data definition, all sites using capricorn receive updates when a module is updated. So all sites using capricorn get the benefit of any updates that are made.
 
-#### Something to consider...
-
-We may be asked to update the styles for a module on capricorn for a specific reason, in one situation, on one site. Knowing that update will appear on all sites using capricorn, there should be consensus on the web team around the implications of this update. Most of the time it's not a big deal. Just keep it in mind.
+Each site has its own **Home Data Definition** because a homepage is always unique.
 
 ## Site Setup
 
@@ -63,12 +53,14 @@ The **`site-setup`** file is in the root of the new site. This determines the st
 
 ### Go to Manage Site > Configurations
 
--   Change each Configurations' Template (Events, Interior, Landing, and Sub-Landing)
--   Click Interior > Edit > and change the Template to `University of St. Thomas: /_shared-capricorn/templates/Universal`
+-   Change each Configuration Template (Events, Interior, Landing, and Sub-Landing)
+-   Click Interior > Edit > and change the Template to
+    -   `University of St. Thomas: /_shared-capricorn/templates/Universal`
 
 **Before you click submit, scroll down and notice that each "Region" is now pointing to "University of St. Thomas"**
 
--   Change the following **region** paths back to the current site's path `New Instance: ...`
+-   Change the following **region paths** to the current site's path `New Instance: ...`
+
     -   Canonical
     -   Footer
     -   Head Data
@@ -77,16 +69,14 @@ The **`site-setup`** file is in the root of the new site. This determines the st
     -   Metadata
     -   Schema
 
-**You're overriding the Canonical, Footer, Head Data, Header and Meta Data files to reference the current site, not the University of St. Thomas.**
+-   Make sure the **Default** path is `<> content-rows`
 
--   Change (or override) individual parts of the template as needed to customize the current site.
+#### Home Configuration
 
-**The Home Configuration paths all point to the new site or instance except Bottom Scripts. This should point to the University of St. Thomas**
+**Each Home Configuration path points to the new site except Bottom Scripts. This should point to the University of St. Thomas**
 
 -   Click Home > Edit > and change the Template to `New Instance: /_shared-capricorn/templates/Home`
--   Make sure you don't change Default paths.
-    -   For Home the Default is `<> home`
-    -   For all other Configurations the Default is `<> content-rows`
+-   Make sure the Home **Default** path is `<> home`
 -   Click Submit
 
 ## Asset Factories
