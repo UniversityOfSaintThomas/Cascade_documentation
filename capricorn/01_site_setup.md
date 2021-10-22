@@ -35,9 +35,7 @@ Each site, or instance, that uses the Capricorn template also has a shared confi
     -   `University of St. Thomas: Data Definitions/Universal`
 -   Click Submit after each change
 
-By pointing the **Content Types Data Definition** to the University of St. Thomas universal data definition, all sites using capricorn receive updates when a module is updated. So all sites using capricorn get the benefit of any updates that are made.
-
-Each site has its own **Home Data Definition** because a homepage is always unique.
+:dart: By pointing the **Content Types Data Definition** to the University of St. Thomas universal data definition, all sites using capricorn receive updates when a module is updated. So all sites using capricorn get the benefit of any updates that are made. Each site has its own **Home Data Definition** because a homepage is always unique.
 
 ## Site Setup
 
@@ -57,7 +55,7 @@ The **`site-setup`** file is in the root of the new site. This determines the st
 -   Click Interior > Edit > and change the Template to
     -   `University of St. Thomas: /_shared-capricorn/templates/Universal`
 
-**Before you click submit, scroll down and notice that each "Region" is now pointing to "University of St. Thomas"**
+:dart: **Before you click submit, scroll down and notice that each "Region" is now pointing to "University of St. Thomas"**
 
 -   Change the following **region paths** to the current site's path `New Instance: ...`
 
@@ -73,7 +71,7 @@ The **`site-setup`** file is in the root of the new site. This determines the st
 
 #### Home Configuration
 
-**Each Home Configuration path points to the new site except Bottom Scripts. This should point to the University of St. Thomas**
+:dart: **Each Home Configuration path points to the new site except Bottom Scripts. This should point to the University of St. Thomas**
 
 -   Click Home > Edit > and change the Template to `New Instance: /_shared-capricorn/templates/Home`
 -   Make sure the Home **Default** path is `<> home`
