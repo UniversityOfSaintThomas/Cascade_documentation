@@ -18,6 +18,8 @@ You'll see `New Instance: ...` below as an example name that refers to the new s
 -   Lawyer Search **[app for the School of Law]**
 -   Continuing and Professional Education **[department and an app]**
 
+---
+
 ## Content Types
 
 ### Go to Manage Site > Content Types
