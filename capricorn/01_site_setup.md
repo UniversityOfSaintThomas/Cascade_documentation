@@ -2,6 +2,47 @@
 
 This is the **Site Setup** documentation for the **Capricorn** template. When you make a new Cascade site, follow each of these steps to configure the new instance correctly.
 
+## Table of Contents
+
+1.  [Content Types](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/01_site_setup.md#content-types)
+2.  [Site Setup](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/01_site_setup.md#site-setup-1)
+3.  [Configurations](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/01_site_setup.md#configurations)
+4.  [Asset Factories](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/01_site_setup.md#asset-factories)
+5.  [Base Assets](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/01_site_setup.md#base-assets-editing-in-progress)
+
+## :dart: Note
+
+`New Instance:` is an example name that refers to the new site being created, the same way `University of St. Thomas:` refers to the instance for [www.stthomas.edu](https://www.stthomas.edu/). A best practice is to name the site for the school, college, department or app being built.
+
+## Structure for `New Instance:`
+
+These are the files that are unique to the new site or instance being created.
+
+```
+New Instance
+
+|__ 404
+|__ _beta
+
+|__ _ external-links
+    |__ 404-page-links
+    |__ homepage
+
+|__ _files
+
+|__ _media-library
+    |__ _documents
+    |__ _images
+    |__ _placeholder-images
+    |__ _sample-images
+
+|__ _shared-capricorn
+
+|__ index
+|__ site-setup
+
+```
+
 The global configuration files for the Capricorn template are in the root of the University of St. Thomas site.
 
 ```
@@ -9,8 +50,6 @@ University of St. Thomas: /_shared-capricorn
 ```
 
 Each site, or instance, that uses the Capricorn template also has a shared configuration in **its own root** for things that are specific to that instance. The following setup are the steps to use the global styles and make sure things like the header, footer and navigation, etc. are unique.
-
-:dart: **Note** that `New Instance:` is an example name that refers to the new site being created, the same way `University of St. Thomas:` refers to the instance for [www.stthomas.edu](https://www.stthomas.edu/). A best practice is to name the site for the school, college, department or app being built.
 
 ---
 
