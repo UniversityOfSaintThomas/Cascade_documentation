@@ -26,7 +26,6 @@ _shared-capricorn
         |__ base
         |__ cononical
         |__ header
-        |__ hero-slider
         |__ id
         |__ noindex
     |__ home
@@ -124,3 +123,28 @@ _shared-capricorn
     -   Specify that you need a color SVG
     -   Edit the SVG to match the markup of the main site's logo
     -   See the logo here: [University of St. Thomas Logo](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/svgs/edu-logo.svg?short_path=6d5bd80)
+
+### :white_check_mark: ID
+
+#### `New Instance: /_shared-capricorn/formats/universal/id`
+
+-   A meta tag to create content ids for each page
+
+### :white_check_mark: Noindex
+
+#### `New Instance: /_shared-capricorn/formats/universal/noindex`
+
+-   This isn't specific to each site, but I like having it on each site
+-   Use this meta tag as needed on individual pages by editing the page configuration
+
+### :white_check_mark: Home
+
+#### `New Instance: /_shared-capricorn/formats/home`
+
+-   This is the homepage, which is basically a header, slider and footer
+-   **These styles are heavily intertwined with the styles for all sliders and hero images**
+-   Be extra careful to test all hero and banner modules on desktop and mobile before pushing to production
+    -   The styles are global for all Capricorn sites
+    -   The module is not global, it is specific to each site
+    -   If editing both the module and styles, each site's module needs to be updated
+    -   **To do:** Should we break up the styles on a per site basis?
