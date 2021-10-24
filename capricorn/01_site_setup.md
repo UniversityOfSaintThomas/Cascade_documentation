@@ -10,7 +10,7 @@ University of St. Thomas: _shared-capricorn/
 
 Each site, or instance, that uses the Capricorn template also has a shared configuration in **its own root** for things that are specific to that instance. The following setup are the steps to use the global styles and make sure things like the header, footer and navigation, etc. are unique.
 
-:dart: **Note** that `New Instance:` is an example name that refers to the new site being created, the same way `University of St. Thomas:` refers to the instance for `www.stthomas.edu`. A best practice is to name the site for the school, college, department or app being built.
+:dart: **Note** that `New Instance:` is an example name that refers to the new site being created, the same way `University of St. Thomas:` refers to the instance for [www.stthomas.edu](https://www.stthomas.edu/). A best practice is to name the site for the school, college, department or app being built.
 
 ---
 
@@ -35,11 +35,11 @@ Each site, or instance, that uses the Capricorn template also has a shared confi
     -   `University of St. Thomas: Data Definitions/Universal`
 -   Click Submit after each change
 
-:dart: By pointing the **Content Types Data Definition** to the University of St. Thomas universal data definition, all sites using capricorn receive updates when a module is updated. So all sites using capricorn get the benefit of any updates that are made. Each site has its own **Home Data Definition** because a homepage is always unique.
+:dart: By pointing the **Content Types Data Definition** to the University of St. Thomas universal data definition, all sites using capricorn receive updates when a module is updated. So all sites using capricorn get the benefit of any updates that are made. Each site has its own **Home Data Definition** because a homepage is always unique **to that site**.
 
 ## Site Setup
 
-The **`site-setup`** file is in the root of the new site. This determines the structure of the main navigation.
+The `New Instance: site-setup` file is in the root of the new site. This determines the structure of the main navigation.
 
 ### Go to Site Content > site-setup
 
@@ -55,9 +55,9 @@ The **`site-setup`** file is in the root of the new site. This determines the st
 -   Click Interior > Edit > and change the Template to
     -   `University of St. Thomas: _shared-capricorn/templates/Universal`
 
-:dart: **Before** you click submit, scroll down and notice that each "Region" is now pointing to "University of St. Thomas"
+:dart: **Before** you click submit, scroll down and notice that each **region path** is now pointing to `University of St. Thomas: ...`
 
--   Change the following **region paths** to the current site's path `New Instance: ...`
+-   Change the following **region paths** to the new site's path `New Instance: ...`
 
     -   Canonical
     -   Footer
@@ -67,14 +67,14 @@ The **`site-setup`** file is in the root of the new site. This determines the st
     -   Metadata
     -   Schema
 
--   Make sure the **Default** path is `<> content-rows`
+-   Confirm the **Default** path is `University of St. Thomas: _shared-capricorn/formats/universal/content-rows`
 
 #### Home Configuration
 
 :dart: **Each** Home Configuration path points to the new site except Bottom Scripts. This should point to the University of St. Thomas
 
 -   Click Home > Edit > and change the Template to `New Instance: _shared-capricorn/templates/Home`
--   Make sure the Home **Default** path is `<> home`
+-   Confirm the Home **Default** path is `New Instance: _shared-capricorn/formats/home`
 -   Click Submit
 
 ## Asset Factories
