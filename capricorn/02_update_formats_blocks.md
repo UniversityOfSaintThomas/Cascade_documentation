@@ -110,7 +110,7 @@ _shared-capricorn
 #end
 ```
 
-##### The Logo
+#### :dart: The Logo
 
 -   All logos are SVGs
 -   The logo class is `class="header__logo"`
@@ -123,4 +123,4 @@ _shared-capricorn
 -   When creating a new site, ask the creative team (usually John Mau) for a new logo, or lockup
     -   Specify that you need a color SVG
     -   Edit the SVG to match the markup of the main site's logo
-    -   [University of St. Thomas Logo](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/svgs/edu-logo.svg?short_path=6d5bd80)
+    -   See the logo here: [University of St. Thomas Logo](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/svgs/edu-logo.svg?short_path=6d5bd80)
