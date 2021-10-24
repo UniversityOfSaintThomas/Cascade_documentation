@@ -91,10 +91,9 @@ _shared-capricorn
 
 #### `New Instance: /_shared-capricorn/formats/universal/header`
 
--   The header file contains an SVG logo with a link to the home page
-    -   Some of the headers have an additional class like `edu` for unique CSS as needed
-    -   Update the `href` to the development URL during the new setup
-    -   When the site is launched the `href` is updated to the production URL
+-   Some of the headers have an additional class like `edu` for unique CSS as needed
+-   Update the `href` to the development URL during the new setup
+-   When the site is launched the `href` is updated to the production URL
 
 ```html
 <a class="header__logo-wrap edu" href="https://www.stthomas.edu"></a>
@@ -103,10 +102,25 @@ _shared-capricorn
 -   This is where the main navigation markup lives
 -   This is where the search icon and off canvas **search drawer** lives
 -   This file also has a **global breadcrumbs file import** at the bottom of the page
-    -   Breadcrumbs appear on Sub Landing and Interior pages
+-   Breadcrumbs appear on Sub Landing and Interior pages
 
-```java
+```xml
 #if ($type == 'sublanding' || $type == 'interior')
     #import ('site://University of St. Thomas/_shared-capricorn/formats/universal/breadcrumbs')
 #end
 ```
+
+##### The Logo
+
+-   All logos are SVGs
+-   The logo class is `class="header__logo"`
+-   The SVG has three additional classes to change the fill color depending on whether the user is on the homepage, landing, sub landing or interior page.
+    -   The first two paths have classes of
+        -   `<path class="divider" ...`
+        -   `<path class="st-thomas" ...`
+    -   The last group has a class of
+        -   `<g class="common-good" ...`
+-   When creating a new site, ask the creative team (usually John Mau) for a new logo, or lockup
+    -   Specify that you need a color SVG
+    -   Edit the SVG to match the markup of the main site's logo
+    -   [University of St. Thomas Logo](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/svgs/edu-logo.svg?short_path=6d5bd80)
