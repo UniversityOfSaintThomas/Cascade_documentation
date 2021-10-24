@@ -122,7 +122,7 @@ _shared-capricorn
 -   When creating a new site, ask the creative team (usually John Mau) for a new logo, or lockup
     -   Specify that you need a color SVG
     -   Edit the SVG to match the markup of the main site's logo
-    -   See the logo here: [University of St. Thomas Logo](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/svgs/edu-logo.svg?short_path=6d5bd80)
+    -   See the [University of St. Thomas Logo](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/svgs/edu-logo.svg?short_path=6d5bd80) as an example
 
 ### :white_check_mark: ID
 
@@ -148,3 +148,18 @@ _shared-capricorn
     -   The module is not global, it is specific to each site
     -   If editing both the module and styles, each site's module needs to be updated
     -   **To do:** Should we break up the styles on a per site basis?
+
+## Templates
+
+### :white_check_mark: Home
+
+#### `New Instance: /_shared-capricorn/templates/Home`
+
+-   Templates are the core page structure
+-   Templates are specified for a page layout in **Manage Site > Configurations**
+-   Template Regions `<system-region name=""/>` are how **Region Paths** are added to page configurations
+-   There are two templates
+    -   Home
+        -   Specific to the site
+    -   Universal
+        -   Global - lives in `University of St. Thomas: /_shared-capricorn/templates/Universal`
