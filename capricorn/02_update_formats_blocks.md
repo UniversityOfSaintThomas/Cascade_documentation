@@ -2,6 +2,8 @@
 
 Each of these files is unique to the new site being built. Plan to edit every file below when you create the site, and when you launch the site. And for some files, many times in between.
 
+## Table of Contents
+
 1.  [Base Assets](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/02_update_formats_blocks.md#base-assets)
 2.  [Blocks](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/02_update_formats_blocks.md#blocks)
 3.  [Formats](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/02_update_formats_blocks.md#formats)
@@ -38,8 +40,6 @@ _shared-capricorn
 |__ templates
     |__ Home
 ```
-
----
 
 ## Base Assets
 
