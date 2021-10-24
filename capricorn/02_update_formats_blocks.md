@@ -1,6 +1,6 @@
 # Updating Formats and Blocks
 
-This is a continuation of the [**Site Setup**](https://github.com/UniversityOfSaintThomas/Cascade_documentation/tree/main/capricorn#capricorn) documentation for the **Capricorn** template. When you make a new Cascade site, follow each of these steps to configure the new instance correctly.
+This is a continuation of the [**Site Setup**](https://github.com/UniversityOfSaintThomas/Cascade_documentation/blob/main/capricorn/01_site_setup.md#site-setup) documentation for the **Capricorn** template. When you make a new Cascade site, follow each of these steps to configure the new instance correctly.
 
 ## Table of Contents
 
