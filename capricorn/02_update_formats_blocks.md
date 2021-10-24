@@ -1,6 +1,6 @@
 # Updating Formats and Blocks
 
-Each of these files is unique to the new site being built. Plan to edit every file below when you create the site, and when you launch the site. And for some files, many times in between.
+This is a continuation of the [**Site Setup**](https://github.com/UniversityOfSaintThomas/Cascade_documentation/tree/main/capricorn#capricorn) documentation for the **Capricorn** template. When you make a new Cascade site, follow each of these steps to configure the new instance correctly.
 
 ## Table of Contents
 
