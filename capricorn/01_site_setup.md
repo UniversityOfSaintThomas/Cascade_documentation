@@ -16,7 +16,7 @@ This is the **Site Setup** documentation for the **Capricorn** template. When yo
 
 ## Structure for `New Instance:`
 
-These are the files that are unique to the new site or instance being created.
+This is the file structure for the new site or instance being created.
 
 ```
 New Instance
@@ -49,7 +49,7 @@ The global configuration files for the Capricorn template are in the root of the
 University of St. Thomas: /_shared-capricorn
 ```
 
-Each site, or instance, that uses the Capricorn template also has a shared configuration in **its own root** for things that are specific to that instance. The following setup are the steps to use the global styles and make sure things like the header, footer and navigation, etc. are unique.
+Each site, or instance, that uses the Capricorn template also has a shared configuration **in its root** for things that are specific to that instance. The following setup are the steps to use the global styles **and** make sure things like the header, footer and navigation, etc. are unique.
 
 ---
 
