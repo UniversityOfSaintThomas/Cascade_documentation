@@ -21,38 +21,40 @@ Documentation for the current state of RFIs and Landing pages within CascadeCMS
 13 | *Environment (Dropdown) | *Environment (Dropdown) | oid
 14 | Lead Source (Dropdown) | Lead Source (Dropdown) | lead_source
 15 | Campaign ID (Text) | - | Campaign_ID
-16 | Debug (Checkbox) | Debug (Checkbox) | debug
-17 | ReCaptcha | ReCaptcha | -
-18 | Pardot | Pardot | - | Not within "Landing page two" format
-19 | UTM -> <br> Campaign (Text) | UTM -> <br> Campaign (Text) | utm_campaign__c
-20 | UTM -> <br> Medium (Text) | UTM -> <br> Medium (Text) | utm_medium__c
-21 | UTM -> <br> Source (Text) | UTM -> <br> Source (Text) | utm_source__c
-22 | UTM -> <br> Content (Text) | UTM -> <br> Content (Text) | utm_content__c
-23 | UTM -> <br> Term (Text) | UTM -> <br> Term (Text) | utm_term__c
-24 | Fields -><br>Apply As [Enable, Required, Enable & Hidden (Dropdown)] | Fields -><br>Apply As [Enable, Required] | Inquiry_Applicant_Type__c
-25 | Fields -><br>Citizenship [Enable, Required] | Fields -><br>Citizenship [Enable, Required] |Inquiry_Citizenship__c
-26 | Fields -><br>Graduate College/Programs [Enable, Required, Format (Dropdown)] | Fields -><br>Graduate College/Programs [Enable, Required, College (Dropdown), Degree Types (Dropdown List), Programs (Multi-select)] | - | Capricorn: Same as fields above 8, 9, 12
-27 | Fields -> <br>Name [Enable, Required] | Fields -> <br>Name [Enable, Required] | first_name<br>last_name
-28 | Fields -> <br>Gender [Enable, Required] | Fields -> <br>Gender [Enable, Required] | Gender__c
-29 | Fields -> <br>Email [Enable, Required] | Fields -> <br>Email [Enable, Required] | email
-30 | Fields -><br>Address [Enable, Required] | Fields -><br>Address [Enable, Required] | StreetLine1__c<br>StreetLine2__c<br>MailingStreetLine3__c<br>MailingCity__c<br>MailingState__c<br>MailingZip__c<br>MailingCountry__c<br>MailingCounty__c
-31 | Fields -> <br>Mobile Phone [Enable, Required] | Fields -> <br>Mobile Phone [Enable, Required] | mobile
-32 | Fields -> <br>Home Phone [Enable, Required] | Fields -> <br>Home Phone [Enable, Required] | Home_Phone__c
-33 | Fields -> <br>Text Message Opt-in [Enable, Required] | Fields -> <br>Text Me [Enable] | Receive_Texts__c | Auto Checked
-34 | Fields -> <br>Birthday [Enable, Required] | Fields -> <br>Birthday [Enable, Required] | Birth_Month_Day__c
-35 | Fields -> <br>How did you hear about us [Enable, Required] | Fields -> <br>How did you hear about us [Enable, Required] | How_did_you_hear_about_us__c
-36 | Fields -> <br>Start Term Season [Enable, Required] | Fields -> <br>Start Term Season [Enable, Required] | Timeline__c
-37 | Fields -> <br>Start Term Year [Enable, Required] | Fields -> <br>Start Term Year [Enable, Required] | Start_Term__c
-38 | Fields -> <br>Employer [Enable, Required] | Fields -> <br>Employer [Enable, Required] | Company_Employer__c
-39 | Fields -> <br>High School/College [Enable, Required] | Fields -> <br>High School/College [Enable, Required] | High_School__c<br>School_Organization_Code__c
-40 | Fields -> <br>High School Graduation [Enable, Required] | Fields -> <br>High School Graduation [Enable, Required] | Expected_Graduation_Date__c
-41 | Fields -> <br>Clubs [Enable, Required] | Fields -> <br>Clubs [Enable, Required] | Activity_Clubs__c
-42 | Fields -> <br>Music [Enable, Required] | Fields -> <br>Music [Enable, Required] | Activity_Music__c
-43 | Fields -> <br>Club Sports [Enable, Required] | Fields -> <br>Club Sports [Enable, Required] | Activity_Intramural_Sports__c
-44 | Fields -> <br>Varsity Sports [Enable, Required] | Fields -> <br>Varsity Sports [Enable, Required] | Activity_Varsity_Sports__c
-45 | Fields -> <br>Questions/Comments [Enable] | Fields -> <br>Questions/Comments [Enable] | I_Have_a_Question__c<br>description
-46 | Fields -> <br>Mail Opt-in [Enable] | Fields -> <br>Email Me [Enable] | Send_Printed_Info__c | Capricon: Incorrect name (Email Me)
-47 | Fields -> <br>ZNUR More Info [Enable] | Fields -> <br>Nursing Checkbox [Enable] | - | Temporary functionality
+16 | Area of Interest (Dropdown) | - | - | Filters program display/options by Area of Interest
+17 | Hidden Fields (TextArea) | - | - | Open Field for debugging and testing hidden inputs (HTML)
+18 | Debug (Checkbox) | Debug (Checkbox) | debug
+19 | ReCaptcha | ReCaptcha | -
+20 | Pardot | Pardot | - | Not within "Landing page two" format
+21 | UTM -> <br> Campaign (Text) | UTM -> <br> Campaign (Text) | utm_campaign__c
+22 | UTM -> <br> Medium (Text) | UTM -> <br> Medium (Text) | utm_medium__c
+23 | UTM -> <br> Source (Text) | UTM -> <br> Source (Text) | utm_source__c
+24 | UTM -> <br> Content (Text) | UTM -> <br> Content (Text) | utm_content__c
+25 | UTM -> <br> Term (Text) | UTM -> <br> Term (Text) | utm_term__c
+26 | Fields -><br>Apply As [Enable, Required, Enable & Hidden (Dropdown)] | Fields -><br>Apply As [Enable, Required] | Inquiry_Applicant_Type__c
+27 | Fields -><br>Citizenship [Enable, Required] | Fields -><br>Citizenship [Enable, Required] |Inquiry_Citizenship__c
+28 | Fields -><br>Graduate College/Programs [Enable, Required, Format (Dropdown)] | Fields -><br>Graduate College/Programs [Enable, Required, College (Dropdown), Degree Types (Dropdown List), Programs (Multi-select)] | - | Capricorn: Same as fields above 8, 9, 12
+29 | Fields -> <br>Name [Enable, Required] | Fields -> <br>Name [Enable, Required] | first_name<br>last_name
+30 | Fields -> <br>Gender [Enable, Required] | Fields -> <br>Gender [Enable, Required] | Gender__c
+31 | Fields -> <br>Email [Enable, Required] | Fields -> <br>Email [Enable, Required] | email
+32 | Fields -><br>Address [Enable, Required] | Fields -><br>Address [Enable, Required] | StreetLine1__c<br>StreetLine2__c<br>MailingStreetLine3__c<br>MailingCity__c<br>MailingState__c<br>MailingZip__c<br>MailingCountry__c<br>MailingCounty__c
+33 | Fields -> <br>Mobile Phone [Enable, Required] | Fields -> <br>Mobile Phone [Enable, Required] | mobile
+34 | Fields -> <br>Home Phone [Enable, Required] | Fields -> <br>Home Phone [Enable, Required] | Home_Phone__c
+35 | Fields -> <br>Text Message Opt-in [Enable, Required] | Fields -> <br>Text Me [Enable] | Receive_Texts__c | Auto Checked
+36 | Fields -> <br>Birthday [Enable, Required] | Fields -> <br>Birthday [Enable, Required] | Birth_Month_Day__c
+37 | Fields -> <br>How did you hear about us [Enable, Required] | Fields -> <br>How did you hear about us [Enable, Required] | How_did_you_hear_about_us__c
+38 | Fields -> <br>Start Term Season [Enable, Required] | Fields -> <br>Start Term Season [Enable, Required] | Timeline__c
+39 | Fields -> <br>Start Term Year [Enable, Required] | Fields -> <br>Start Term Year [Enable, Required] | Start_Term__c
+40 | Fields -> <br>Employer [Enable, Required] | Fields -> <br>Employer [Enable, Required] | Company_Employer__c
+41 | Fields -> <br>High School/College [Enable, Required] | Fields -> <br>High School/College [Enable, Required] | High_School__c<br>School_Organization_Code__c
+42 | Fields -> <br>High School Graduation [Enable, Required] | Fields -> <br>High School Graduation [Enable, Required] | Expected_Graduation_Date__c
+43 | Fields -> <br>Clubs [Enable, Required] | Fields -> <br>Clubs [Enable, Required] | Activity_Clubs__c
+44 | Fields -> <br>Music [Enable, Required] | Fields -> <br>Music [Enable, Required] | Activity_Music__c
+45 | Fields -> <br>Club Sports [Enable, Required] | Fields -> <br>Club Sports [Enable, Required] | Activity_Intramural_Sports__c
+46 | Fields -> <br>Varsity Sports [Enable, Required] | Fields -> <br>Varsity Sports [Enable, Required] | Activity_Varsity_Sports__c
+47 | Fields -> <br>Questions/Comments [Enable] | Fields -> <br>Questions/Comments [Enable] | I_Have_a_Question__c<br>description
+48 | Fields -> <br>Mail Opt-in [Enable] | Fields -> <br>Email Me [Enable] | Send_Printed_Info__c | Capricon: Incorrect name (Email Me)
+49 | Fields -> <br>ZNUR More Info [Enable] | Fields -> <br>Nursing Checkbox [Enable] | - | Temporary functionality
 
  *Required
  **Required for RFI v2 only
