@@ -16,7 +16,7 @@ Documentation for the current state of RFIs and Landing pages within CascadeCMS
 8 | College (Dropdown) | Fields -> <br>Graduate College/Programs -><br>College (Dropdown) | School__c
 9 | Programs (Multi-select) | Fields -> <br>Graduate College/Programs -><br>Programs (Multi-select) | Major_Code__c <br> Program_Offered_Code__c
 10 | Filter Programs (Multi-select) | - | -
-11 | Program Offered Code (Multi-select) | - | Program_Offered_Code
+11 | Program Offered Code (Multi-select) | - | Program_Offered_Code | May not support multi-select on vuejs (Single selection)
 12 | Degree Types (Dropdown List) | Fields -> <br>Graduate College/Programs -><br>Degree Types (Dropdown List) | - | Prioritized sorting in the Programs field by Degree Type
 13 | *Environment (Dropdown) | *Environment (Dropdown) | oid
 14 | Lead Source (Dropdown) | Lead Source (Dropdown) | lead_source
