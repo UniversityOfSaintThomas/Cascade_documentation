@@ -1,8 +1,11 @@
-# Cascade LPs/RFIs
+## Cascade LPs/RFIs
 Documentation for the current state of RFIs and Landing pages within CascadeCMS
+<hr>
+
 ## Data Definition/Shared Field values
-- | Orion - RFI<br>(Shared Field) | Capricorn - RFI Form<br>(Shared Field) | Salesforce API Name | Notes
-- |------ | ------ | ------ | ------
+
+&nbsp; | Orion - RFI<br>(Shared Field) | Capricorn - RFI Form<br>(Shared Field) | Salesforce API Name | Notes
+------- |------ | ------ | ------ | ------
 1 | - | Background Color (Radio) | -
 2 | Heading (Text)   | Heading (Text) | -
 3 | - | Short Description (Text) | -
