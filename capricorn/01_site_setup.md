@@ -142,15 +142,16 @@ Capricorn Template: /_shared-capricorn/base-assets/interior
 New Instance: /_shared-capricorn/base-assets/interior
 ```
 
-## Base Assets (EDITING IN PROGRESS)
+## Base Assets
+
+Base Assets are configured similarly to Configurations. A base asset contains the starting content and images for each new page that's created.
 
 ### Go to Site Content > `New Instance: /_shared-capricorn/base-assets`
 
--   Click `_shared-capricorn/base-assets` to enter the directory
--   Next click More in the upper right-hand corner and choose Bulk Change from the drop down
--   Property to Change > Content Type
--   Check the box for `STTHOMAS DEV: _shared-capricorn/base-assets/interior`
--   New Content Type > Content Types > Interior
+-   Click on `base-asset/sub-landing` > Configure
+-   Make sure the Content Type is `New Instance: Content Types/Sub-Landing`
+-   The **Region Paths** should match the paths their respective Configurations
+-   Repeat this step for **all base assets**
 
 ## Continue with Formats and Blocks
 

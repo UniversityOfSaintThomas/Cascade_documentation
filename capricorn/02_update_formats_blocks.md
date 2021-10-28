@@ -162,6 +162,8 @@ _shared-capricorn
 
 #### `New Instance: /_shared-capricorn/templates/Home`
 
+-   Update the `<title>` tag
+    -   ex. `<title>Dougherty Family College | University of St. Thomas - Minnesota</title>`
 -   Templates are the core page structure
 -   Templates are specified for a page layout in **Manage Site > Configurations**
 -   Template Regions `<system-region name=""/>` are how **Region Paths** are added to page configurations
