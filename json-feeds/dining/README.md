@@ -68,7 +68,9 @@ A dining meal represents a meal at a dining location, generally associated with 
 
 ### Dining Exception Format
 
-A dining exception represents a duration where a given dining location may have different hours from what is shown.
+A dining exception represents a duration where a given dining location may have different hours from what is shown. The exception is not represented in the overall hours for a dining location, nor is it represented in the hours for a given meal.
+
+Exceptions exist solely as a way to notify a user that over a given time period the information in the message is relevent. This is most commonly used for interruptions in standard hours, but may also be used for other information.
 
 ```javascript
 {
