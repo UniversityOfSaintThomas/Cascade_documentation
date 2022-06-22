@@ -33,8 +33,8 @@ There are two templates (Capricorn and Orion), and each have a separate director
 -   [Morrison Family College of Health](https://health.stthomas.edu/)
 -   [School of Engineering](https://engineering.stthomas.edu/)
 -   [Graduate Programs in Software](https://software.stthomas.edu/)
--   [Lawyer Search](https://lawnet.aws.stthomas.edu/)
--   [School of Law](https://law.aws.stthomas.edu/)
+-   [Lawyer Search | Will eventually be moved into law.stthomas.edu](https://lawnet.aws.stthomas.edu/)
+-   [School of Law | In development](https://law.aws.stthomas.edu/)
 -   OPUS DEV
     -   pages do not publish
     -   must have remote access or be on campus to view pages
