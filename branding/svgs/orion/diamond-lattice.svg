@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1283.269 679.231">
+    <defs>
+        <clipPath id="a" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 338.17 338.18)" fill="none" d="M98.173 99.932h479.995v476.495H98.173z"/>
+        </clipPath>
+        <clipPath id="b" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 502.666 338.17)" fill="none" d="M262.668 99.923h479.995v476.495H262.668z"/>
+        </clipPath>
+        <clipPath id="c" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 667.09 338.233)" fill="none" d="M427.092 99.985h479.995V576.48H427.092z"/>
+        </clipPath>
+        <clipPath id="d" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 832.584 338.22)" fill="none" d="M592.585 99.973h479.995v476.495H592.585z"/>
+        </clipPath>
+        <clipPath id="e" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 447.787 338.22)" fill="none" d="M207.789 99.973h479.995v476.495H207.789z"/>
+        </clipPath>
+        <clipPath id="f" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 612.281 338.212)" fill="none" d="M372.284 99.964h479.995v476.495H372.284z"/>
+        </clipPath>
+        <clipPath id="g" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 778.775 338.199)" fill="none" d="M538.777 99.951h479.995v476.495H538.777z"/>
+        </clipPath>
+        <clipPath id="h" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 942.27 338.193)" fill="none" d="M702.272 99.945h479.995V576.44H702.272z"/>
+        </clipPath>
+        <clipPath id="i" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 392.978 338.2)" fill="none" d="M152.981 99.952h479.995v476.495H152.981z"/>
+        </clipPath>
+        <clipPath id="j" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 557.473 338.191)" fill="none" d="M317.476 99.943h479.995v476.495H317.476z"/>
+        </clipPath>
+        <clipPath id="k" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 724.965 338.176)" fill="none" d="M484.968 99.928h479.995v476.495H484.968z"/>
+        </clipPath>
+        <clipPath id="l" transform="translate(1.414 1.414)">
+            <path transform="rotate(-45 887.462 338.172)" fill="none" d="M647.464 99.924h479.995v476.495H647.464z"/>
+        </clipPath>
+    </defs>
+    <g style="isolation:isolate">
+        <g clip-path="url(#a)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M1.414 340.83L340.822 1.424l336.933 336.933-339.408 339.408z"/>
+        </g>
+        <g clip-path="url(#b)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M165.91 340.822L505.317 1.414 842.25 338.347 502.842 677.755z"/>
+        </g>
+        <g clip-path="url(#c)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M330.334 340.884L669.74 1.477l336.933 336.933-339.407 339.407z"/>
+        </g>
+        <g clip-path="url(#d)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M495.826 340.873L835.234 1.466l336.933 336.933-339.408 339.407z"/>
+        </g>
+        <g clip-path="url(#e)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M111.03 340.873L450.439 1.465l336.933 336.933-339.408 339.407z"/>
+        </g>
+        <g clip-path="url(#f)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M275.525 340.863L614.932 1.455l336.933 336.933-339.407 339.408z"/>
+        </g>
+        <g clip-path="url(#g)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M442.018 340.85L781.426 1.442l336.932 336.933-339.407 339.408z"/>
+        </g>
+        <g clip-path="url(#h)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M605.513 340.844L944.921 1.436l336.933 336.933-339.408 339.408z"/>
+        </g>
+        <g clip-path="url(#i)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M56.222 340.85L395.629 1.444l336.933 336.933-339.408 339.408z"/>
+        </g>
+        <g clip-path="url(#j)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M220.718 340.843L560.125 1.435l336.933 336.933L557.65 677.775z"/>
+        </g>
+        <g clip-path="url(#k)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M388.209 340.828L727.617 1.42l336.932 336.933L725.142 677.76z"/>
+        </g>
+        <g clip-path="url(#l)">
+            <path fill="none" stroke="#501c5b" stroke-miterlimit="10" stroke-width="2" d="M550.705 340.824L890.113 1.416l336.933 336.933-339.408 339.408z"/>
+        </g>
+    </g>
+</svg>

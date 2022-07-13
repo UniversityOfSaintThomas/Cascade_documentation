@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="play" viewBox="0 0 68 68">
+        <circle cx="34" cy="34" r="34" fill="#9e28b5"/>
+        <path fill="none" d="M44 34.5L29 45V24l15 10.5z"/>
+        <path fill="#fff" d="M44 34.5L29 45V24l15 10.5z"/>
+    </symbol>
+</svg>

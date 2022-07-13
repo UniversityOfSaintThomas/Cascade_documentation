@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 16.179 12" id="arrow">
+        <g fill="none" stroke-linecap="round" stroke-width="1.5">
+            <path d="M10.929.75,15.429,6"/>
+            <path d="M10.929,11.25,15.429,6"/>
+            <path d="M.75,5.946H14.464" stroke-linecap="square"/>
+        </g>
+    </symbol>
+</svg>

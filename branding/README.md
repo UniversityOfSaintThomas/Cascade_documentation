@@ -34,8 +34,6 @@ $orange: #ff6c00;
 $blue-1: #1779ba;
 $blue-2: #13669e;
 $blue-3: #cfe7f8;
-$links: $blue-2;
-$lt-links: $blue-3;
 
 // these colors were modified for the strategic table
 $t-purple: #795098;

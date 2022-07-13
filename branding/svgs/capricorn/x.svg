@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol viewBox="0 0 18.3 18.3" fill="none" stroke-width="2" stroke-linecap="round" id="x">
+        <path d="M1,1l16.3,16.3"/>
+        <path d="M1,17.3L17.3,1"/>
+    </symbol>
+</svg>
