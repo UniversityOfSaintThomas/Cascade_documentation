@@ -75,9 +75,6 @@ $pink: #cf009d;
 $cerulean: #00ade3;
 $ocean: #1779ba;
 
-$links-light: $cerulean;
-$links-dark: $ocean;
-
 $blue-darker: #02024b;
 $blue-dark: #000060;
 $blue-medium: #3d2d9a;
