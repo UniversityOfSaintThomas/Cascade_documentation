@@ -37,7 +37,24 @@ This is pretty straight forward and usually makes the most sense to do in regard
 7) Click 'Rename' to rename the copied file.
 8) You have now created a "new" file to for with. You may go in an clean up the formatting. 
 
-#
+# Adding the Module to the Content Row
+This step is specific to Orion
+```
+_shared-orion
+|__ cms
+    |__ formats
+        |__ universal
+            |__ content rows
+```
+add your new module to the content row file by updating two locations, examples below
+```
+#import("/_shared-orion/_cms/formats/components/new-module")
+```
+
+```
+#elseif ($type == "New Module")
+            #NewModule($row)
+```
 
 # Data Definitions 
  Once the module is built you will have to link it in the data definitions in order to use it.
