@@ -78,7 +78,7 @@ name-of-campaign-page/
 
 ### Capricorn
 
-|             Orion Landing Page             |     Orion Landing Page with RFI Form v2     |
+|          Capricorn Campaign Page           |        Capricorn Campaign Page Type         |
 | :----------------------------------------: | :-----------------------------------------: |
 | ![Campaign Template](/images/campaign.png) | ![Campaign Edit](/images/campaign-edit.png) |
 
