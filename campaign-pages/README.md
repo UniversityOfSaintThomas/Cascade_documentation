@@ -46,8 +46,11 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 -   Requestors must provide their own images, or ask the Creative team for help with image sourcing.
 -   Hero image dimensions should be approximately 1920px x 1080px, and the image size around 200kb.
--   Some requestors need help with content. If provided, we can add provided content, then requestors and add or edit content as needed.
--   **It's not a development task to copyedit content, make multiple content revisions, or source images.**
+-   Some requestors need help with content. If provided, we can add provided content, then requestors add or edit content as needed.
+
+### :dart: Important to Remember
+
+> It's not a development task to copyedit content, make multiple content revisions, or source images.
 
 ---
 
