@@ -2,7 +2,7 @@
 
 This campaign page process documents the requirements and the steps to creating a landing page.
 
-Some embedded marketers will try to make their own page, or at least offer to make their own page. Even when we trust them to do it themselves, campaign pages should always be a development task. After we confirm the requirements of the page, we can hand it back to the requestor to add and edit content.
+Some requestors will try to make their own page, or at least offer to make their own page. Even when we trust them to do it, campaign pages should be a development task. After we confirm the requirements of the page, we can hand it back to the requestor to add and edit content.
 
 ## Requirements :grapes:
 
@@ -43,7 +43,11 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 -   Some requestors need help with content. If provided, we can add provided content, then requestors and add or edit content as needed.
 -   **It's not a development task to copyedit content, make multiple content revisions, or source images.**
 
+---
+
 ## Cascade :lemon:
+
+The campaign page templates in Capricorn and Orion are not the same, but the folder structure is the same.
 
 ### Folder Structure :pear:
 
@@ -55,6 +59,10 @@ name-of-campaign-page/
 ```
 
 ### Orion :peach:
+
+|             Orion Landing Page              |     Orion Landing Page with RFI Form v2      |
+| :-----------------------------------------: | :------------------------------------------: |
+| ![Orion Landing](/images/orion-landing.png) | ![Orion Edit Screen](/images/orion-edit.png) |
 
 ### Capricorn :strawberry:
 
