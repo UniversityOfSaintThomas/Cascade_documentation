@@ -47,7 +47,7 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 ## Cascade :lemon:
 
-The campaign page templates in Capricorn and Orion are not the same, but the folder structure is the same.
+The campaign page templates in Capricorn and Orion are different, but the folder structure is the same.
 
 ### Folder Structure :pear:
 
@@ -60,9 +60,25 @@ name-of-campaign-page/
 
 ### Orion :peach:
 
+-   Select the **Landing Page** template
+-   Select the **Landing Page with RFI Form v2** module
+    -   The modules available exist in the **Left Modules** content row
+        -   Intro Block
+        -   Gray Box
+        -   Stat Box
+        -   Left Image
+        -   Accordion
+        -   Intro Block Purple
+        -   Test Tips (Law School only!)
+-   Select **RFI Type v2 > Lightning Web Component**
+
+---
+
 |             Orion Landing Page              |     Orion Landing Page with RFI Form v2      |
 | :-----------------------------------------: | :------------------------------------------: |
 | ![Orion Landing](/images/orion-landing.png) | ![Orion Edit Screen](/images/orion-edit.png) |
+
+---
 
 ### Capricorn :strawberry:
 
