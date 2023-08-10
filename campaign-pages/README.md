@@ -16,14 +16,14 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 **Unless there's a special request for additional fields, most campaign pages use these five fields.**
 
-| Typical campaign page RFI             |                                  |
-| :------------------------------------ | :------------------------------- |
-| First name                            | required                         |
-| Last Name                             | required                         |
-| Email                                 | required                         |
-| Phone                                 | required when consent is checked |
-| I would like to receive text messages |                                  |
-| ![](/images/rfi.png)                  | ![](/images/rfi-checked.png)     |
+| Typical campaign page RFI                  |                                                |
+| :----------------------------------------- | :--------------------------------------------- |
+| First name                                 | required                                       |
+| Last Name                                  | required                                       |
+| Email                                      | required                                       |
+| Phone                                      | required when consent is checked               |
+| I would like to receive text messages      |                                                |
+| ![RFI phone not required](/images/rfi.png) | ![RFI phone required](/images/rfi-checked.png) |
 
 ---
 
@@ -33,6 +33,8 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 -   RFI (Lightning Web Component)
     -   Thank you page
 -   Content
+
+![Campaign page when first created](/images/page.png)
 
 ### Content &amp; Images :green_apple:
 
