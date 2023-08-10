@@ -14,38 +14,6 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 -   Salesforce Program/Major/Concentration
     -   ex. **AS_CS_MA|CATH**, Master of Arts in Catholic Studies
 
----
-
-## :dart: Important to Remember
-
-> Unless there's a special request for additional fields, most campaign pages use these fields.
-
-### Graduate
-
-| Graduate campaign page RFI                 |                                                |
-| :----------------------------------------- | :--------------------------------------------- |
-| First name                                 | required                                       |
-| Last Name                                  | required                                       |
-| Email                                      | required                                       |
-| Phone                                      | required when consent is checked               |
-| I would like to receive text messages      |                                                |
-| ![RFI phone not required](/images/rfi.png) | ![RFI phone required](/images/rfi-checked.png) |
-
-### Undergraduate
-
-| Undergraduate campaign page RFI               |          |
-| :-------------------------------------------- | :------- |
-| I will Apply to St. Thomas as a               | required |
-| First name                                    | required |
-| Last Name                                     | required |
-| Email                                         | required |
-| High School Attended                          | required |
-| I can't find my High School                   |          |
-| High School Graduation (YYYY)                 | required |
-| ![RFI phone not required](/images/ug-rfi.png) |          |
-
----
-
 ### Elements of a Campaign Page
 
 -   Hero Image
@@ -54,6 +22,10 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 -   Content
 
 ---
+
+### Example Orion Campaign Page
+
+Fresh campaign page for the College of Arts and Sciences graduate study abroad program. We added the hero image, but the requestor will add content.
 
 ![Campaign page when first created](/images/page.png)
 
@@ -108,13 +80,40 @@ name-of-campaign-page/
 
 ## Salesforce RFIs
 
--   Form fields
-    -   First Name
-    -   Last Name
-    -   Email (required)
-    -   Phone
-    -   Consent to receive text messages
+## :dart: Important to Remember
 
-First and Last name are automatically added to the RFI/Lightning Web Component, and are required fields.
+> Unless there's a special request for additional fields, most campaign pages use these fields.
+
+---
+
+### Graduate
+
+| Graduate campaign page RFI                 |                                                |
+| :----------------------------------------- | :--------------------------------------------- |
+| First name                                 | required                                       |
+| Last Name                                  | required                                       |
+| Email                                      | required                                       |
+| Phone                                      | required when consent is checked               |
+| I would like to receive text messages      |                                                |
+| ![RFI phone not required](/images/rfi.png) | ![RFI phone required](/images/rfi-checked.png) |
+
+---
+
+### Undergraduate
+
+| Undergraduate campaign page RFI               |          |
+| :-------------------------------------------- | :------- |
+| I will Apply to St. Thomas as a               | required |
+| First name                                    | required |
+| Last Name                                     | required |
+| Email                                         | required |
+| High School Attended                          | required |
+| I can't find my High School                   |          |
+| High School Graduation (YYYY)                 | required |
+| ![RFI phone not required](/images/ug-rfi.png) |          |
+
+---
 
 ### Lightning Web Components
+
+First and Last name are automatically added to the RFI/Lightning Web Component, and are required fields.
