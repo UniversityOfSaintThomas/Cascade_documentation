@@ -16,9 +16,13 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 ---
 
-**Unless there's a special request for additional fields, most campaign pages use these five fields.**
+## :dart: Important to Remember
 
-| Typical campaign page RFI                  |                                                |
+> Unless there's a special request for additional fields, most campaign pages use these fields.
+
+### Graduate
+
+| Graduate campaign page RFI                 |                                                |
 | :----------------------------------------- | :--------------------------------------------- |
 | First name                                 | required                                       |
 | Last Name                                  | required                                       |
@@ -26,6 +30,19 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 | Phone                                      | required when consent is checked               |
 | I would like to receive text messages      |                                                |
 | ![RFI phone not required](/images/rfi.png) | ![RFI phone required](/images/rfi-checked.png) |
+
+### Undergraduate
+
+| Undergraduate campaign page RFI               |          |
+| :-------------------------------------------- | :------- |
+| I will Apply to St. Thomas as a               | required |
+| First name                                    | required |
+| Last Name                                     | required |
+| Email                                         | required |
+| High School Attended                          | required |
+| I can't find my High School                   |          |
+| High School Graduation (YYYY)                 | required |
+| ![RFI phone not required](/images/ug-rfi.png) |          |
 
 ---
 
