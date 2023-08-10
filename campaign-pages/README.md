@@ -34,7 +34,11 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
     -   Thank you page
 -   Content
 
+---
+
 ![Campaign page when first created](/images/page.png)
+
+---
 
 ### Content &amp; Images :green_apple:
 
