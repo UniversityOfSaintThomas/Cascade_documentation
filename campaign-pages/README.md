@@ -78,6 +78,10 @@ name-of-campaign-page/
 
 ### Capricorn
 
+|             Orion Landing Page             |     Orion Landing Page with RFI Form v2     |
+| :----------------------------------------: | :-----------------------------------------: |
+| ![Campaign Template](/images/campaign.png) | ![Campaign Edit](/images/campaign-edit.png) |
+
 ## Salesforce RFIs
 
 ## :dart: Important to Remember
@@ -86,7 +90,7 @@ name-of-campaign-page/
 
 ---
 
-### Graduate
+### Graduate (Orion template)
 
 | Graduate campaign page RFI                 |                                                |
 | :----------------------------------------- | :--------------------------------------------- |
@@ -99,7 +103,7 @@ name-of-campaign-page/
 
 ---
 
-### Undergraduate
+### Undergraduate (Capricorn template)
 
 | Undergraduate campaign page RFI               |          |
 | :-------------------------------------------- | :------- |
