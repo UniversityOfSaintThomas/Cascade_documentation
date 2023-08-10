@@ -16,13 +16,14 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 **Unless there's a special request for additional fields, most campaign pages use these five fields.**
 
-![Typical campaign page RFI](/images/rfi.png)
-
--   First name
--   Last Name
--   Email
--   Phone
--   Consent to receive text messages
+| Typical campaign page RFI        |                                  |
+| :------------------------------- | :------------------------------- |
+| First name                       | required                         |
+| Last Name                        | required                         |
+| Email                            | required                         |
+| Phone                            | required when consent is checked |
+| Consent to receive text messages |                                  |
+| ![](/images/rfi.png)             |                                  |
 
 ---
 
