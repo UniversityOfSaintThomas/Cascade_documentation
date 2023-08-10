@@ -52,8 +52,6 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 > It's not a development task to copyedit content, make multiple content revisions, or source images.
 
----
-
 ## Cascade
 
 The campaign page templates in Capricorn and Orion are different, but the folder structure is the same.
