@@ -54,6 +54,8 @@ name-of-campaign-page/
 |__ index
 ```
 
+---
+
 ### Orion
 
 -   Select the **Landing Page** template
@@ -68,8 +70,6 @@ name-of-campaign-page/
         -   Test Tips (Law School only!)
 -   Select **RFI Type v2 > Lightning Web Component**
 
----
-
 |             Orion Landing Page              |     Orion Landing Page with RFI Form v2      |
 | :-----------------------------------------: | :------------------------------------------: |
 | ![Orion Landing](/images/orion-landing.png) | ![Orion Edit Screen](/images/orion-edit.png) |
@@ -78,9 +78,25 @@ name-of-campaign-page/
 
 ### Capricorn
 
+-   Select the **Campaign Page** template
+-   Select the **Landing Page with RFI Form v2** module
+    -   The modules available exist in the **Left Modules** content row
+        -   Intro Block
+        -   Gray Box
+        -   Stat Box
+        -   Left Image
+        -   Accordion
+        -   Intro Block Purple
+        -   Test Tips (Law School only!)
+-   Select **RFI Type v2 > Lightning Web Component**
+
 |          Capricorn Campaign Page           |        Capricorn Campaign Page Type         |
 | :----------------------------------------: | :-----------------------------------------: |
 | ![Campaign Template](/images/campaign.png) | ![Campaign Edit](/images/campaign-edit.png) |
+
+|                Campaign Page RFI                |              Campaign Page Modules              |
+| :---------------------------------------------: | :---------------------------------------------: |
+| ![Campaign Template](/images/capricorn-rfi.png) | ![Campaign Edit](/images/capricorn-modules.png) |
 
 ## Salesforce RFIs
 
