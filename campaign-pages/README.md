@@ -1,10 +1,12 @@
-# Campaign Pages :apple:
+# Campaign Pages
 
 This campaign page process documents the requirements and the steps to creating a landing page.
 
-Some requestors will try to make their own page, or at least offer to make their own page. Even when we trust them to do it, campaign pages should be a development task. After we confirm the requirements of the page, we can hand it back to the requestor to add and edit content.
+## :dart: Important to Remember
 
-## Requirements :grapes:
+> Some requestors will try to make their own page, or at least offer to make their own page. Even when we trust them to do it, campaign pages should be a development task. After we confirm the requirements of the page, we can hand it back to the requestor to add and edit content and images.
+
+## Requirements
 
 Whether or not the requestor specifies a URL or program code, we always confirm those details with Kathy and Cassie on the Analytics team.
 
@@ -27,7 +29,7 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 ---
 
-### Elements of a Campaign Page :watermelon:
+### Elements of a Campaign Page
 
 -   Hero Image
 -   RFI (Lightning Web Component)
@@ -40,7 +42,7 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 ---
 
-### Content &amp; Images :green_apple:
+### Content &amp; Images
 
 -   Requestors must provide their own images, or ask the Creative team for help with image sourcing.
 -   Hero image dimensions should be approximately 1920px x 1080px, and the image size around 200kb.
@@ -49,11 +51,11 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 ---
 
-## Cascade :lemon:
+## Cascade
 
 The campaign page templates in Capricorn and Orion are different, but the folder structure is the same.
 
-### Folder Structure :pear:
+### Folder Structure
 
 ```
 name-of-campaign-page/
@@ -62,7 +64,7 @@ name-of-campaign-page/
 |__ index
 ```
 
-### Orion :peach:
+### Orion
 
 -   Select the **Landing Page** template
 -   Select the **Landing Page with RFI Form v2** module
@@ -84,9 +86,9 @@ name-of-campaign-page/
 
 ---
 
-### Capricorn :strawberry:
+### Capricorn
 
-## Salesforce RFIs :tangerine:
+## Salesforce RFIs
 
 -   Form fields
     -   First Name
@@ -97,4 +99,4 @@ name-of-campaign-page/
 
 First and Last name are automatically added to the RFI/Lightning Web Component, and are required fields.
 
-### Lightning Web Components :cherries:
+### Lightning Web Components
