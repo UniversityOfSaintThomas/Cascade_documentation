@@ -12,7 +12,14 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 -   URL of the page
 -   Salesforce Program/Major/Concentration
-    -   ex. **AS_CS_MA|CATH**, Master of Arts in Catholic Studies
+
+### Example
+
+Requestors won't always know what the Major/Concentration code is. It might also be a new program! We may need to speak with Ryanna Jackson, the Manager of Enrollment Technology &amp; Analytics to confirm the correct codes.
+
+| Major/Concentration |              Program               |
+| :-----------------: | :--------------------------------: |
+| AS_CS_MA&#124;CATH  | Master of Arts in Catholic Studies |
 
 ### Elements of a Campaign Page
 
@@ -25,7 +32,7 @@ Whether or not the requestor specifies a URL or program code, we always confirm 
 
 ### Example Orion Campaign Page
 
-Fresh campaign page for the College of Arts and Sciences graduate study abroad program. We added the hero image, but the requestor will add content.
+This is fresh campaign page for the College of Arts and Sciences graduate study abroad program. We resized and optimized the hero image before adding it, and the requestor will add content.
 
 ![Campaign page when first created](/images/page.png)
 
