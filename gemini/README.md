@@ -81,23 +81,24 @@ SVGs and PNGs
 
 ### Regions
 
-| Region            | Location | Path                                                                 | Type   |
-| ----------------- | -------- | -------------------------------------------------------------------- | ------ |
-| Base:             | Global   | `_shared-gemini: _cms/formats/_shared/base`                          | format |
-| Canonical:        | Global   | `_shared-gemini: _cms/formats/_shared/canonical`                     | format |
-| Compare:          |          |                                                                      |
-| Custom CSS:       |          |                                                                      |
-| Default:          | Unique   | `Alumni STAGING: /_shared-gemini/_cms/formats/page/default`          | format |
-| Footer:           | Unique   | `Alumni STAGING: /_shared-gemini/_cms/formats/_shared/footer`        | format |
-| Head Files:       | Global   | `_shared-gemini: /_cms/blocks/head-files`                            | block  |
-| Header:           | Unique   | `Alumni STAGING: /_shared-gemini/_cms/formats/_shared/header/header` | format |
-| Hero-Breadcrumbs: | Unique   | `Alumni STAGING: /_shared-gemini/_cms/formats/page/hero-breadcrumbs` | format |
-| ID:               | Global   | `_shared-gemini: /_cms/formats/_shared/id`                           | format |
-| Noindex:          |          |                                                                      |
-| Open Graph:       |          |                                                                      |
-| Schema:           |          |                                                                      |
-| Site Name:        | Global   | `_shared-gemini: /_cms/formats/_shared/site-name`                    | format |
-| Skip Links:       | Global   | `_shared-gemini: /_cms/formats/_shared/skip-links`                   | format |
+| Region                   | Location | Path                                                                 | Type   |
+| ------------------------ | -------- | -------------------------------------------------------------------- | ------ |
+| Base:                    | Global   | `_shared-gemini: _cms/formats/_shared/base`                          | format |
+| Canonical:               | Global   | `_shared-gemini: _cms/formats/_shared/canonical`                     | format |
+| Compare:                 |          |                                                                      |        |
+| Custom CSS:              |          |                                                                      |        |
+| Default:                 | Unique   | `Alumni STAGING: /_shared-gemini/_cms/formats/page/content-rows`     | format |
+| Footer:                  | Unique   | `Alumni STAGING: /_shared-gemini/_cms/formats/_shared/footer`        | format |
+| Head Files:              | Global   | `_shared-gemini: /_cms/blocks/head-files`                            | block  |
+| Header:                  | Unique   | `Alumni STAGING: /_shared-gemini/_cms/formats/_shared/header/header` | format |
+| Hero-Breadcrumbs (Page): | Unique   | `Alumni STAGING: /_shared-gemini/_cms/formats/page/hero-breadcrumbs` | format |
+| Hero-Breadcrumbs (Home): | Unique   | `Alumni STAGING: /_shared-gemini/_cms/formats/home/hero`             | format |
+| ID:                      | Global   | `_shared-gemini: /_cms/formats/_shared/id`                           | format |
+| Noindex:                 | Unique   | `Alumni STAGING: /_shared-gemini/_cms/formats/_shared/noindex`       | format |
+| Open Graph:              |          |                                                                      |        |
+| Schema:                  |          |                                                                      |        |
+| Site Name:               | Global   | `_shared-gemini: /_cms/formats/_shared/site-name`                    | format |
+| Skip Links:              | Global   | `_shared-gemini: /_cms/formats/_shared/skip-links`                   | format |
 
 ## Content Types
 
