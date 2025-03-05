@@ -8,20 +8,17 @@ There are two templates (Capricorn and Orion), and each have a separate director
 
 -   [University of St. Thomas](https://www.stthomas.edu/)
 -   [Alumni | Tommie Network](https://alumni.stthomas.edu/)
--   [Continuing and Professional Education](https://cape.stthomas.edu/)
--   [Search](https://search.stthomas.edu/search/)
 -   [DFC](https://dfc.stthomas.edu/)
+-   [Library](https://library.stthomas.edu/)
+-   [Online Learning](https://online.stthomas.edu/)
+-   [Posters](https://posters.stthomas.edu/)
 -   [University of St. Thomas Staging](https://staging.aws.stthomas.edu/)
     -   not a separate instance
     -   publish set for UST beta pages
     -   pages can be viewed off campus
 -   STTHOMAS DEV
     -   pages do not publish
-    -   must have remote access or be on campus to view pages
--   Capricorn Template
-    -   pages do not publish
-    -   copy this instance to make a new site using the Capricorn template
-    -   follow the directions in the Capricorn section of this documentation
+    -   CSS/JS assets are public
 
 ## Sites using Orion
 
@@ -33,15 +30,17 @@ There are two templates (Capricorn and Orion), and each have a separate director
 -   [Morrison Family College of Health](https://health.stthomas.edu/)
 -   [School of Engineering](https://engineering.stthomas.edu/)
 -   [Graduate Programs in Software](https://software.stthomas.edu/)
--   [Lawyer Search](https://law.aws.stthomas.edu/lawyer-search)
 -   [School of Law](https://law.aws.stthomas.edu/)
 -   OPUS DEV
     -   pages do not publish
-    -   must have remote access or be on campus to view pages
--   Orion Template
+    -   CSS/JS assets are public
+
+## Sites using Gemini
+
+-   [Search](https://search.stthomas.edu/search/)
+-   GEMINI DEV
     -   pages do not publish
-    -   copy this instance to make a new site using the Orion template
-    -   follow the directions in the Orion section of this documentation
+    -   CSS/JS assets are public
 
 ## Cascade Resources
 
