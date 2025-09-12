@@ -116,3 +116,44 @@ SVGs and PNGs
 | Metadata Set    | Page            | Unique   | `Site Name: Metadata Sets/Page`         |
 | Type of Content | Data Definition |          |                                         |
 | Data Definition | Page            | Global   | `_shared-gemini: Data Definitions/Page` |
+
+# Astro Vs Vue
+
+## Astro
+
+Most components are built using Astro. Astro modules follow the format
+```
+<!-- cascade: module format name -->
+<div class="module class>
+	<!-- Module template code -->
+</div>
+<style is:global>
+</style>
+
+<script>
+</script>
+```
+
+## Vue
+Gemini uses Vue 3. 
+
+Vue is used for more complex modules that need to talk to JSON, APIS or be reactive to data on the screen.
+A Vue module must also have a .astro component that imports the component.
+```
+---
+import AlumCal from "./AlumniEventCalendar.vue";
+---
+<section>
+    <div class="Finder__wrap">
+        <AlumniEventCalendar />
+    </div>
+</section>
+```
+Make sure you don't include a style sheet in the Vue component for Gemini (unlike Orion and Capricorn) as this will break the Cascade page.  The styles should go in their own file in
+```
+MIC_gemini-static-files/src/styles/vue_styles
+```
+and include an import statement in 
+```
+MIC_gemini-static-files/src/styles/global.css
+```
