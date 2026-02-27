@@ -4,10 +4,13 @@
 
 ### Admissions Visit Calendar
 
+Campus Visits has a series of filtered pages stored in the _external-links folder. If the admissions team wants to sort on a new title for a series developer work is needed. In the file AdmissionsVisit.vue edit "const titleFilters" to add a new title (not the should be the title of the series not instance).
+
 -   Salesforce API
     -   <https://uofstthomasmn.my.salesforce-sites.com/services/apexrest/summit/summiteventsfeed?viewStart=2023-06-22%2014%3A04%3A10&viewEnd=2023-07-09%2000%3A00%3A00&feedType=eventList&audience=all%2CDougherty%20Family%20College%20(2-Year)%2CFirst-Year%20International%2CHigh%20School%20Junior%20or%20Younger%2CHigh%20School%20Senior%2CTransfer%2CTransfer%20International>
 -   Webpage
     -   <https://www.stthomas.edu/admissions/undergraduate/campus-visits/schedule/index.html>
+    -   Sortable filter (audience and title): <https://www.stthomas.edu/admissions/undergraduate/campus-visits/schedule/index.html?audience=High+School+Senior&title=In-Person+Financial+Aid+Appointment>
 
 ### Campus Visits Filter
 
@@ -51,12 +54,13 @@
 -   Webapge
     -   <https://www.stthomas.edu/dining/locations-menus-hours/index.html>
 
-### Events Filter (only used on DFC)
+### Events Filter
 
 -   Summit Events API
     -   <https://uofstthomasmn.my.salesforce-sites.com/services/apexrest/summit/summiteventsfeed?feedType=eventList&eventId=&viewStart=2023-06-22%2016:06:55&audience=Dougherty%20Family%20College%20(2-Year)&viewEnd=2023-09-21%2004:09:99&filter=&program=&school=&category=&displayon=&building=&callback=jQuery37008852606841917889_1687449882295&_=1687449882296>
 -   Webapge
     -   <https://dfc.stthomas.edu/about/news-events/index.html>
+    -   <https://www.stthomas.edu/claritas-initiative/index.html>
 
 ### Faculty Listing Filter (Center for Well-Being Providers &amp; Staff, and DFC Faculty)
 
