@@ -7,7 +7,6 @@ There are two templates (Capricorn and Orion), and each have a separate director
 ## Sites using Capricorn
 
 -   [University of St. Thomas](https://www.stthomas.edu/)
--   [Alumni | Tommie Network](https://alumni.stthomas.edu/)
 -   [DFC](https://dfc.stthomas.edu/)
 -   [Library](https://library.stthomas.edu/)
 -   [Online Learning](https://online.stthomas.edu/)
@@ -23,8 +22,6 @@ There are two templates (Capricorn and Orion), and each have a separate director
 ## Sites using Orion
 
 -   [Opus College of Business](https://business.stthomas.edu/)
--   [Campaigns](https://campaigns.stthomas.edu/)
--   [Give to St. Thomas](https://give.stthomas.edu/)
 -   [College of Arts and Sciences](https://cas.stthomas.edu/)
 -   [School of Education](https://education.stthomas.edu/)
 -   [Morrison Family College of Health](https://health.stthomas.edu/)
@@ -38,6 +35,11 @@ There are two templates (Capricorn and Orion), and each have a separate director
 ## Sites using Gemini
 
 -   [Search](https://search.stthomas.edu/search/)
+-   [Alumni | Tommie Network](https://alumni.stthomas.edu/)
+-   [Give to St. Thomas](https://give.stthomas.edu/)
+-   Partially using Gemini:
+    - [Opus College of Business](https://business.stthomas.edu/)
+    - [University of St. Thomas](https://www.stthomas.edu/)
 -   GEMINI DEV
     -   pages do not publish
     -   CSS/JS assets are public
